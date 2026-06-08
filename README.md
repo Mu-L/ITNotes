@@ -20,7 +20,7 @@ tags:
   - golang
   - font
 created: 2023-08-18 19:44:52
-modified: 2026-05-25 21:29:44
+modified: 2026-06-09 02:12:01
 ---
 
 # ITNotes
@@ -31,19 +31,21 @@ modified: 2026-05-25 21:29:44
 
 ## 数据库
 
-### MySQL
-
-* [MySQL笔记](DataBase/mysql/MySQL_Note.md)
-* [Linux下安装MySQL](DataBase/mysql/Linux下安装MySQL.md)
-* [MySQL常用操作](DataBase/mysql/MySQL常用操作.md)
+* [数据库笔记](DataBase/DataBase_Note.md)
+	* [MySQL笔记](DataBase/mysql/MySQL_Note.md)
+		* [Linux下安装MySQL](DataBase/mysql/Linux下安装MySQL.md)
+		* [MySQL常用操作](DataBase/mysql/MySQL常用操作.md)
+	* [PostgreSQL 笔记](DataBase/PostgrSQL/PostgreSQL_Note.md)
+	* [SQLServer 笔记](DataBase/SQLServer/SQLServer_Note.md)
+	* [SQLite 笔记](DataBase/SQLite/SQLite_Note.md)
 
 ---
 
 ## Linux
 
 * [Linux 笔记](Linux/Linux_Note.md)
-* [Linux 视频清单](Linux/Linux_Videos.md)
-* [Linux 资料清单](Linux/Linux_Material.md)
+	* [Linux 视频清单](Linux/Linux_Videos.md)
+	* [Linux 资料清单](Linux/Linux_Material.md)
 * [Linux命令行常用小技巧](Linux/Linux命令行常用小技巧.md)
 * [Ranger_Note](Linux/Ranger_Note.md)
 * [镜像地址笔记](Linux/Mirror_Address.md)

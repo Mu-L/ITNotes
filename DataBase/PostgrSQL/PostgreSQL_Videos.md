@@ -1,11 +1,13 @@
 ---
 aliases: []
 tags:
+  - db
+  - database
   - postgresql
   - video
   - list
 created: 2025-08-23 03:15:10
-modified: 2025-09-30 10:41:01
+modified: 2026-06-07 22:16:13
 ---
 
 # PostgreSQL 视频清单

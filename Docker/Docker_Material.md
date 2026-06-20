@@ -5,7 +5,7 @@ tags:
   - material
   - list
 created: 2024-08-22 01:36:41
-modified: 2026-05-06 01:35:59
+modified: 2026-06-09 20:39:38
 ---
 
 # Docker 资料清单
@@ -84,6 +84,11 @@ modified: 2026-05-06 01:35:59
 * [Mysql容器设置字符集 - 运维笔记](http://zongming.net/read-1232/)
 * [修改Docker MySQL官方镜像字符集UTF8 - CSDN博客](https://blog.csdn.net/Three_dog/article/details/91415268)
 * [docker 文件方式修改mysql配置（时区+字符集）永久修改Docker容器中mysql的时区 对mysql doc - 掘金](https://juejin.cn/post/7113921256717549575)
+
+### PostgreSQL
+
+* [Docker安装部署PostgreSQL数据库 - 掘金](https://juejin.cn/post/7239990044333801533)
+* [docker安装pg(postgresql) - 白玉神驹 - 博客园](https://www.cnblogs.com/cgy-home/p/17984101)
 
 ---
 

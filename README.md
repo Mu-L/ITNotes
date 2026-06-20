@@ -20,7 +20,7 @@ tags:
   - golang
   - font
 created: 2023-08-18 19:44:52
-modified: 2026-06-09 02:12:01
+modified: 2026-06-20 21:15:51
 ---
 
 # ITNotes
@@ -70,16 +70,16 @@ modified: 2026-06-09 02:12:01
 ### Shell
 
 * [Shell 笔记](Linux/Shell/Shell_Note.md)
-* [Shell 示例笔记](Linux/Shell/Shell_Example.md)
-* [Shell 视频清单](Linux/Shell/Shell_Videos.md)
-* [Shell 资料清单](Linux/Shell/Shell_Material.md)
+	* [Shell 示例笔记](Linux/Shell/Shell_Example.md)
+	* [Shell 视频清单](Linux/Shell/Shell_Videos.md)
+	* [Shell 资料清单](Linux/Shell/Shell_Material.md)
 * [Zsh 笔记](Linux/Shell/Zsh_Note.md)
-* [Zsh 资料清单](Linux/Shell/Zsh_Material.md)
+	* [Zsh 资料清单](Linux/Shell/Zsh_Material.md)
 
 ### AWK
 
 * [AWK 笔记](Linux/AWK_Note.md)
-* [AWK 资料清单](Linux/AWK_Material.md)
+	* [AWK 资料清单](Linux/AWK_Material.md)
 
 ---
 
@@ -108,13 +108,13 @@ modified: 2026-06-09 02:12:01
 #### Mybatis
 
 * [MyBatis 笔记](Java/MyBatis_Note.md)
-* [MyBatis 视频清单](Java/MyBatis_Videos.md)
+	* [MyBatis 视频清单](Java/MyBatis_Videos.md)
 
 #### Maven
 
 * [Maven 笔记](Java/Maven/Maven_Note.md)
-* [Maven 资料清单](Java/Maven/Maven_Material.md)
-* [Maven 视频清单](Java/Maven/Maven_Videos.md)
+	* [Maven 资料清单](Java/Maven/Maven_Material.md)
+	* [Maven 视频清单](Java/Maven/Maven_Videos.md)
 
 #### 旧框架
 
@@ -143,8 +143,11 @@ modified: 2026-06-09 02:12:01
 
 * [Python 笔记](Python/Python_Note.md)
 	* [Python 语法笔记](Python/Python_Syntax.md)
-* [Python 资料清单](Python/Python_Material.md)
-* [Python 视频清单](Python/Python_Videos.md)
+	* [Python 资料清单](Python/Python_Material.md)
+	* [Python 视频清单](Python/Python_Videos.md)
+
+#### Conda
+
 * [Python Conda 笔记](Python/Python_Conda.md)
 
 ### PHP
@@ -163,40 +166,45 @@ modified: 2026-06-09 02:12:01
 ### 前端
 
 * [前端笔记](Frontend/Front-end_Note.md)
-* [前端资料清单](Frontend/Front-end_Material.md)
-* [前端视频清单](Frontend/Front-end_Videos.md)
+	* [前端资料清单](Frontend/Front-end_Material.md)
+	* [前端视频清单](Frontend/Front-end_Videos.md)
 * [Html 笔记](Frontend/Html_Note.md)
 * [DOM笔记](Frontend/DOM_Note.md)
 
-### CSS
+#### CSS
 
 * [CSS 笔记](Frontend/CSS_Note.md)
+	* [CSS 视频清单](Frontend/CSS_Videos.md)
 * [CSS 布局笔记](Frontend/CSS_Layout.md)
-* [CSS 视频清单](Frontend/CSS_Videos.md)
 
-### BootStrap
+#### BootStrap
 
 * [Bootstrap 笔记](Frontend/Bootstrap_Note.md)
-* [Bootstrap 资料清单](Frontend/Bootstrap_Material.md)
-* [Bootstrap 视频清单](Frontend/Bootstrap_Videos.md)
+	* [Bootstrap 资料清单](Frontend/Bootstrap_Material.md)
+	* [Bootstrap 视频清单](Frontend/Bootstrap_Videos.md)
 
-### Vue
+#### Vue
 
 * [Vue 笔记](Frontend/Vue_Note.md)
 * [Vue 视频清单](Frontend/Vue_Videos.md)
 
+#### React
+
+* [React 笔记](Frontend/React_Note.md)
+	* [React 资料清单](Frontend/React_Material.md)
+
 ### Lua
 
 * [Lua 笔记](Lua/Lua_Note.md)
-* [Lua 资料清单](Lua/Lua_Material.md)
-* [Lua 视频清单](Lua/Lua_Videos.md)
+	* [Lua 资料清单](Lua/Lua_Material.md)
+	* [Lua 视频清单](Lua/Lua_Videos.md)
 
 ### Golang
 
 * [Go语言笔记](GoLang/GoLang_Note.md)
 	* [Go语言语法笔记](GoLang/GoLang_Syntax.md)
-* [Go语言视频清单](GoLang/GoLang_Videos.md)
-* [Go语言资料清单](GoLang/GoLang_Material.md)
+	* [Go语言视频清单](GoLang/GoLang_Videos.md)
+	* [Go语言资料清单](GoLang/GoLang_Material.md)
 
 ### Ruby
 

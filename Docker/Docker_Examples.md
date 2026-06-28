@@ -8,7 +8,7 @@ tags:
   - nginx
   - apache
 created: 2024-07-21 12:56:23
-modified: 2025-07-29 23:21:35
+modified: 2026-06-29 03:21:31
 ---
 
 # Docker 示例
@@ -114,6 +114,18 @@ docker run -itd --name d_nginx --network mybridge --ip 172.21.0.31 -p 8899:80 -v
 > [!info] 
 > 
 > `-v /home/silascript/Docker_Mount/nginx_m/log:/var/nginx` log 目录挂载，宿主目录可以不用预先创建 `log` 目录，[Docker](Docker_Note.md) 挂载时，如果要挂载的宿主目录不存在，会自动创建相应目录再挂载。
+
+如果想在 [PHP](../PHP/PHP_Note.md) 页面中显示 nginx 版本信息，可以使用以下代码：
+
+```php
+echo $_SERVER['SERVER_SOFTWARE'];
+```
+
+> [!info] 
+> 
+> 其实使用 `phpinfo()`函数显示 php 相关信息中，其中`PHP Variables` 组中就有这个变量的信息，它会显示诸如：`nginx/1.27.4` 这样的。
+> 
+> 而如果是使用 PHP 内置的服务器，这个变量值会显示诸如 ：`PHP/8.4.22 (Development Server)` 这样的。
 
 ---
 
@@ -337,7 +349,7 @@ docker run -itd --name d_php84 --network mybridge --ip 172.21.0.30 -p 9000:9000 
 > 如果编写了 [宿主机调容器中PHP可执行程序的小脚本](#^docker-php-exec-shell)，就可以在宿主机环境下开启 php 的内置服务器：
 > 
 > ```shell
-> ./docker_cmds/docker_php.sh -S 172.21.0.30:8088 -t /var/www/html/​
+> ./docker_cmds/docker_php.sh php -S 172.21.0.30:8088 -t /var/www/html/
 > ```
 > 
 > 

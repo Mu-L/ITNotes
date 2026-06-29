@@ -8,7 +8,7 @@ tags:
   - nginx
   - apache
 created: 2024-07-21 12:56:23
-modified: 2026-06-29 03:21:31
+modified: 2026-06-29 20:12:39
 ---
 
 # Docker 示例
@@ -30,20 +30,16 @@ docker run -d --name d_nginx -p 8899:80 nginx:stable
 > 
 >> [!Example] 
 >> 
->> 复制配置目录及文件：
+>> 1. 复制配置目录及文件：
 >> 
 >> ```shell
 >> docker cp d_nginx:/etc/nginx/conf.d Docker_Mount/nginx_m/etc/conf.d/
 >> docker cp d_nginx:/etc/nginx/nginx.conf Docker_Mount/nginx_m/etc
 >>```
 >>
->>复制配置成功后，就可以 [停止容器](Docker_Note.md#停止容器)，然后 [删除容器](Docker_Note.md#删除容器)。
+>>2. 复制配置成功后，就可以 [停止容器](Docker_Note.md#停止容器)，然后 [删除容器](Docker_Note.md#删除容器)。
 >>
->> 重新 run 个容器：
->> 
->> ```shell
->> docker run --name d_nginx -d -p 8899:80 -v /home/silascript/Docker_Mount/nginx_m/etc/conf.d:/etc/nginx/conf.d -v /home/silascript/Docker_Mount/nginx_m/html:/usr/share/nginx/html -v /home/silascript/Docker_Mount/nginx_m/log:/var/log/ngixn nginx:stable
->> ```
+>> 3. 重新 run 个容器。
 >
 > `/etc/nginx/conf.d` 这是个目录，这个目录下有一个 `default.conf`。
 

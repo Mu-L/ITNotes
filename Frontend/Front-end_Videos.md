@@ -61,7 +61,7 @@ modified: 2025-10-28 13:10:59
 
 ### Bootstrap
 
-* [Bootstrap 视频清单](Bootstrap_Videos.md)
+* [Bootstrap 视频清单](Bootstrap/Bootstrap_Videos.md)
 
 ### Angular
 
@@ -83,5 +83,5 @@ modified: 2025-10-28 13:10:59
 * [CSS 视频清单](CSS_Videos.md)
 * [JS 笔记](../JS/JS_Note.md)
 * [JS 视频清单](../JS/JS_Videos.md)
-* [Vue 视频清单](Vue_Videos.md)
+* [Vue 视频清单](Vue/VueJS_Videos.md)
 

@@ -91,5 +91,5 @@ modified: 2025-12-29 13:00:10
 
 * [前端笔记](../Frontend/Front-end_Note.md)
 * [前端视频清单](../Frontend/Front-end_Videos.md)
-* [Vue 视频清单](../Frontend/Vue_Videos.md)
+* [Vue 视频清单](../Frontend/Vue/VueJS_Videos.md)
 

@@ -2,6 +2,7 @@
 aliases: []
 tags:
   - vue
+  - vuejs
   - video
   - list
   - tutorial
@@ -11,10 +12,10 @@ tags:
   - ts
   - typerscript
 created: 2024-03-12 02:32:12
-modified: 2025-11-28 19:15:44
+modified: 2026-07-07 02:46:31
 ---
 
-# Vue 视频清单
+# VueJS 视频清单
 
 ## 目录
 
@@ -39,7 +40,8 @@ modified: 2025-11-28 19:15:44
 
 ## 相关笔记
 
- * [前端笔记](Front-end_Note.md)
- * [前端视频清单](Front-end_Videos.md)
- * [Html 笔记](Html_Note.md)
- * [JS 笔记](../JS/JS_Note.md)
+* [VueJS 笔记](VueJS_Note.md)
+* [前端笔记](Front-end_Note.md)
+* [前端视频清单](Front-end_Videos.md)
+* [Html 笔记](Html_Note.md)
+* [JS 笔记](../../JS/JS_Note.md)

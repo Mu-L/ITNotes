@@ -15,7 +15,7 @@ modified: 2025-11-12 11:27:38
 ## 简介
 
 [Bootstrap](https://getbootstrap.com) [![Bootstrap repo](https://img.shields.io/github/stars/twbs/bootstrap
-)](https://github.com/twbs/bootstrap) 是一套 [Html](Html_Note.md)、[CSS](CSS_Note.md) 及 [JS](../JS/JS_Note.md) 的前端框架。
+)](https://github.com/twbs/bootstrap) 是一套 [Html](Html_Note.md)、[CSS](CSS_Note.md) 及 [JS](../../JS/JS_Note.md) 的前端框架。
 
 ### 历史
 

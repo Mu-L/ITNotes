@@ -32,6 +32,6 @@ modified: 2025-12-05 11:10:50
 * [CSS 笔记](CSS_Note.md)
 * [CSS 布局笔记](CSS_Layout.md)
 * [前端视频清单](Front-end_Videos.md)
-* [Bootstrap笔记](Bootstrap_Note.md)
-* [Bootstrap视频清单](Bootstrap_Videos.md)
+* [Bootstrap笔记](Bootstrap/Bootstrap_Note.md)
+* [Bootstrap视频清单](Bootstrap/Bootstrap_Videos.md)
 

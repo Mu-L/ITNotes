@@ -8,7 +8,7 @@ tags:
   - nginx
   - apache
 created: 2024-07-21 12:56:23
-modified: 2026-06-29 20:12:39
+modified: 2026-07-03 21:59:38
 ---
 
 # Docker 示例
@@ -843,7 +843,19 @@ performance_schema = off
 
 ---
 
-## 示例 5：安装 CentOS
+## 示例 7：安装 PostgreSQL
+
+```shell
+docker pull postgres
+```
+
+> [!info] 
+> 
+> [PostgreSQL](../DataBase/PostgrSQL/PostgreSQL_Note.md) 的官方镜像是叫「**postgres**」。
+
+---
+
+## 示例 6：安装 CentOS
 
 创建 CentOS 容器：
 
@@ -901,7 +913,7 @@ CentOS 开启 SSH 服务
 
 ---
 
-## 示例 6：安装 Debian
+## 示例 7：安装 Debian
 
 创建容器与 CentOS 一样。
 
@@ -941,7 +953,7 @@ docker cp vim/ d_debian12:/root/vim_custum/
 
 ---
 
-## 示例 7：安装 Ubuntu
+## 示例 8：安装 Ubuntu
 
 ```shell
 docker run -itd --name d_ubuntu21 --network vbridge01 --ip 172.20.0.20 -p 2225:22 ubuntu:jammy
@@ -952,7 +964,7 @@ docker run -itd --name d_ubuntu21 --network vbridge01 --ip 172.20.0.20 -p 2225:2
 
 ---
 
-## 示例 8：安装 AlmaLinux
+## 示例 9：安装 AlmaLinux
 
 ```shell
 docker run -itd --name d_almalinux92 --network vbridge01 --ip 172.20.0.23 almalinux:9.2-minimal

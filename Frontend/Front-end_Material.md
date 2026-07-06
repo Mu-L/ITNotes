@@ -7,7 +7,7 @@ tags:
   - material
   - list
 created: 2025-02-18 03:56:48
-modified: 2025-11-13 21:46:50
+modified: 2026-07-07 00:45:14
 ---
 
 # 前端资料清单
@@ -21,6 +21,14 @@ modified: 2025-11-13 21:46:50
 * [前言 \| 千古前端图文教程](https://web.qianguyihao.com)
 * [首页-前端队长の技术博客](https://daotin.github.io)
 * [2025年最新超详细的前端学习路线（建议收藏🔥） \| 二哥的Java进阶之路](https://javabetter.cn/xuexiluxian/qianduan.html)
+
+---
+
+## 前端框架
+
+* [前端如何选择Angular、React和Vue三大主流框架- 掘金](https://juejin.cn/post/7217648572535259194)
+* [2025 年，前端框架還是 React、Angular、Vue 三分天下嗎？](https://blog.darkthread.net/blog/top-fe-framework-2025/)
+* [2026前端框架大考！Vue份额首超React，三雄实测数据谁更强](https://post.smzdm.com/p/apq57v70/)
 
 ---
 

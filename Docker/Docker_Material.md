@@ -5,7 +5,7 @@ tags:
   - material
   - list
 created: 2024-08-22 01:36:41
-modified: 2026-06-09 20:39:38
+modified: 2026-07-03 21:53:42
 ---
 
 # Docker 资料清单
@@ -89,6 +89,7 @@ modified: 2026-06-09 20:39:38
 
 * [Docker安装部署PostgreSQL数据库 - 掘金](https://juejin.cn/post/7239990044333801533)
 * [docker安装pg(postgresql) - 白玉神驹 - 博客园](https://www.cnblogs.com/cgy-home/p/17984101)
+* [Linux环境下基于Docker安装 PostgreSQL数据库并配置 - CSDN博客](https://blog.csdn.net/u012856866/article/details/148231568)
 
 ---
 

@@ -7,7 +7,7 @@ tags:
   - fnm
   - npm
 created: 2023-08-19 23:06:10
-modified: 2026-03-12 10:29:00
+modified: 2026-07-07 02:21:03
 ---
 
 # NodeJS 笔记
@@ -56,6 +56,12 @@ npm install 包名@1.11.0
 
 ```shell
 npm install 包名@1
+```
+
+##### 卸载包
+
+```shell
+npm uninstall 包名
 ```
 
 ### <span id="node_install">安装</span>

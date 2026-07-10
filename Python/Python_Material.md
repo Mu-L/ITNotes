@@ -8,10 +8,16 @@ tags:
   - material
   - list
 created: 2024-08-28 03:09:20
-modified: 2026-05-26 22:25:36
+modified: 2026-07-10 21:10:13
 ---
 
 # Python 资料清单
+
+---
+
+## 历史和版本
+
+* [Python语言从2.7到3.14的能力变化与演进逻辑](https://zhuanlan.zhihu.com/p/1928082807059617488)
 
 ---
 

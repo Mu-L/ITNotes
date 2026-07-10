@@ -6,13 +6,14 @@ tags:
   - video
   - list
   - tutorial
+  - course
   - front-end
   - js
   - javascript
   - ts
   - typerscript
 created: 2024-03-12 02:32:12
-modified: 2026-07-07 02:46:31
+modified: 2026-07-08 20:20:20
 ---
 
 # VueJS 视频清单
@@ -26,6 +27,7 @@ modified: 2026-07-07 02:46:31
 
 ## 基础
 
+* [【2025最新版】3小时学会Vue3，小白零基础视频教程，web前端快速入门实战课程](https://www.bilibili.com/video/BV1nV411Q7RX)
 * [【2024最新】Web前端Vue3.0框架课程，从0到1快速上手学习，一套搞定vue框架](https://www.bilibili.com/video/BV1NU411F7rW)
 * 2024 一天学会 Vue3
 	* [链接1](https://www.bilibili.com/video/BV19x421m7WD)
@@ -45,3 +47,4 @@ modified: 2026-07-07 02:46:31
 * [前端视频清单](Front-end_Videos.md)
 * [Html 笔记](Html_Note.md)
 * [JS 笔记](../../JS/JS_Note.md)
+* [TypeScript 笔记](../../JS/TypeScript/TypeScript_Note.md)

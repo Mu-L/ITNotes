@@ -7,7 +7,7 @@ tags:
   - lux
   - google
 created: 2023-08-18 19:44:52
-modified: 2026-05-07 21:09:23
+modified: 2026-07-09 20:23:51
 ---
 
 # 常用小工具笔记
@@ -424,7 +424,7 @@ scoop bucket add ayoisaiah-scoop-bucket https://github.com/ayoisaiah/scoop-bucke
 scoop install f2
 ```
 
-更多安装方式请参考 [f2 wiki](https://github.com/ayoisaiah/f2/wiki/Installation)。
+更多安装方式请参考 [f2 getting-started doc](https://f2.freshman.tech/guide/getting-started.html#getting-started)。
 
 ---
 

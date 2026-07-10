@@ -3,8 +3,9 @@ aliases: []
 tags:
   - python
   - syntax
+  - grammar
 created: 2025-08-03 04:08:51
-modified: 2025-12-09 20:58:45
+modified: 2026-07-10 21:14:54
 ---
 
 # Python 语法笔记

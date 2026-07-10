@@ -3,10 +3,13 @@ aliases: []
 tags:
   - js
   - javascript
+  - es
+  - tutorial
+  - course
   - video
   - list
 created: 2023-05-26 11:00:13
-modified: 2025-12-29 13:00:10
+modified: 2026-07-08 21:34:28
 ---
 
 # Javascript 视频清单
@@ -39,6 +42,7 @@ modified: 2025-12-29 13:00:10
 * [【3小时快速精通】2024最新版ES6基础视频教程（16集全）](https://www.bilibili.com/video/BV1Bt421A7LB)
 * [30分钟学会JS核心语法](https://youtu.be/WX87IbdAPuQ)
 * [2024前端JavaScript入门到精通全套视频教程](https://www.bilibili.com/video/BV1qb421n7ea)
+* [【2024新版】ES6\~ES13从入门到精通教程，JS前端零基础入门实战视频课程](https://www.bilibili.com/video/BV1Bh4y1q73A)
 
 ---
 

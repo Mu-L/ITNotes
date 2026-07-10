@@ -5,7 +5,7 @@ tags:
   - vue
   - vuejs
 created: 2023-08-18 19:44:52
-modified: 2026-07-07 02:45:16
+modified: 2026-07-08 20:16:10
 ---
 
 # VueJS 笔记
@@ -19,6 +19,24 @@ modified: 2026-07-07 02:45:16
 ---
 
 ## 简介
+
+[Vue.js](https://vuejs.org) 是一个用于构建用户界面的渐进式框架。
+
+> [!info] 
+> 
+> 渐进式意味着你可以根据项目需要，只引入 Vue 的一部分能力：从一个简单的页面交互增强，到构建完整的单页应用（SPA），乃至服务端渲染（SSR）应用，Vue 都能胜任。
+
+Vue3 ，于 2020 年 9 月 18 日正式发布。
+
+相比 Vue2，Vue3 对核心架构进行了全面重写：
+
+* 响应式系统从 `Object.defineProperty` 升级为 `Proxy`
+* 引入「**组合式 API**」（Composition API），并在性能、[TypeScript](../../JS/TypeScript/TypeScript_Note.md) 支持、包体积等方面全面提升
+
+GitHub：
+
+* [Vue 3](https://github.com/vuejs/core)
+* [Vue 2](https://github.com/vuejs/vue)
 
 ---
 

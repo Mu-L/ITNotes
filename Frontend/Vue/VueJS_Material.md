@@ -7,10 +7,16 @@ tags:
   - material
   - list
 created: 2026-07-07 02:42:44
-modified: 2026-07-07 02:43:52
+modified: 2026-07-08 20:18:01
 ---
 
 # VueJS 资料清单
+
+---
+
+## 教程及文档
+
+* [Vue3 教程 \| 菜鸟教程](https://www.runoob.com/vue3)
 
 ---
 

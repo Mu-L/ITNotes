@@ -8,7 +8,7 @@ tags:
   - material
   - list
 created: 2024-08-16 10:08:24
-modified: 2025-10-16 21:37:03
+modified: 2026-07-10 02:11:35
 ---
 
 # JS 资料清单
@@ -19,6 +19,7 @@ modified: 2025-10-16 21:37:03
 
 * [简介 - JavaScript教程 - 廖雪峰的官方网站](https://liaoxuefeng.com/books/javascript/introduction/index.html)
 * [现代JavaScript教程](https://zh.javascript.info)
+* [ES6 从入门到精通 - 邓瑞编程](https://www.dengruicode.com/classes?uuid=04682448c47b45e980e57d476918d740)
 
 ### 表单
 

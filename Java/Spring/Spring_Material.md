@@ -7,10 +7,16 @@ tags:
   - material
   - list
 created: 2024-09-26 18:09:16
-modified: 2026-07-13 00:16:43
+modified: 2026-07-13 01:19:23
 ---
 
 # Spring 资料清单
+
+---
+
+## 版本
+
+* [Spring 各版本发布时间与区别 - jiftle - 博客园](https://www.cnblogs.com/jiftle/p/18383296)
 
 ---
 
@@ -20,11 +26,7 @@ modified: 2026-07-13 00:16:43
 
 ## Springboot
 
-* [【SpringBoot框架学习】yml/yaml语法 详解 - 在下右转，有何贵干 - 博客园](https://www.cnblogs.com/codderYouzg/p/13162666.html)
-
-### Deployment
-
-* [SpringBoot系列教材 （四）- 基础 - 用war的方式部署springboot项目](https://how2j.cn/k/springboot/springboot-war/1655.html)
+* [SpringBoot 资料清单](SpringBoot_Material.md)
 
 ---
 
@@ -36,6 +38,6 @@ modified: 2026-07-13 00:16:43
 
 ## 相关笔记
 
-* [Spring 笔记1](Spring_Note.md)
+* [Spring 笔记](Spring_Note.md)
 * [SpringBoot 笔记](SpringBoot_Note.md)
 

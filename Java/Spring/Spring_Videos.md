@@ -51,5 +51,5 @@ modified: 2025-08-06 22:16:47
 
 * [Java 笔记](../Java_Note.md)
 * [Java 视频清单](../Java_Videos.md)
-* [Spring 笔记1](Spring_Note_1.md)
+* [Spring 笔记1](Spring_Note.md)
 * [MyBatis 视频清单](../MyBatis_Videos.md)

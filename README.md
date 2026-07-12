@@ -123,7 +123,7 @@ modified: 2026-06-20 21:15:51
 
 #### Spring
 
-* [Spring 笔记 1](Java/Spring/Spring_Note_1.md)
+* [Spring 笔记 1](Java/Spring/Spring_Note.md)
 
 #### Hibernate
 

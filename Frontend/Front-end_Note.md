@@ -6,7 +6,7 @@ tags:
   - css
   - 前端
 created: 2023-08-18 19:44:52
-modified: 2025-10-17 22:32:40
+modified: 2026-07-12 11:56:31
 ---
 
 # 前端笔记
@@ -19,6 +19,17 @@ modified: 2025-10-17 22:32:40
 
 * [Html 笔记](./Html_Note.md)
 * [CSS笔记](CSS_Note.md)
+
+---
+
+## Mustache
+
+[mustache](https://github.com/mustache/mustache.github.com) 是一个「轻逻辑」（Logic-less）模板引擎。
+
+Mustache 手册：
+
+* [mustache(5)](https://mustache.github.io/mustache.5.html)
+* [mustache(1)](https://mustache.github.io/mustache.1.html)
 
 ---
 

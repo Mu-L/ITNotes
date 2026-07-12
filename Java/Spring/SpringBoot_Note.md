@@ -16,6 +16,6 @@ modified: 2024-09-26 18:11:27
 
 ## 相关笔记
 
-* [Spring 笔记 1](Spring_Note_1.md)
+* [Spring 笔记 1](Spring_Note.md)
 * [Spring 资料清单](Spring_Material.md)
 

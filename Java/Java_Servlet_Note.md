@@ -202,7 +202,7 @@ public class CharacterEncoding implements Filter {
 
 * [JAVA EE 笔记](JAVA_EE_Note.md)
 * [JDBC 笔记](Java_JDBC_Note.md)
-* [Spring 笔记 1](./Spring/Spring_Note_1.md) 
+* [Spring 笔记 1](Spring/Spring_Note.md) 
 * [Java 资料清单](Java_Material.md)
 * [Java 笔记](Java_Note.md)
 

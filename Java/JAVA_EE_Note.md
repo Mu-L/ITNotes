@@ -5,18 +5,18 @@ tags:
   - javaee
   - jakartaee
 created: 2025-03-17 20:00:46
-modified: 2025-07-30 21:49:21
+modified: 2026-07-13 00:22:43
 ---
 
 # Java EE 笔记
 
 ---
 
-## 简介
+### JavaEE
 
 Java EE：Java Platform Enterprise Edition。
 
-2018 年 3 月更名为**Jakarta EE**。
+2018 年 3 月更名为 [Jakarta EE](#Jakarta%20EE)。
 
 Java EE 是一系列技术标准所组成的平台，包括：
 
@@ -47,6 +47,10 @@ Java EE 是一系列技术标准所组成的平台，包括：
 ## 版本
 
 Jakarta EE Platform 各版本发布信息：[Jakarta EE Platform \| projects.eclipse.org](https://projects.eclipse.org/projects/ee4j.jakartaee-platform)
+
+## Jakarta EE
+
+2018 年 3 月更名为**Jakarta EE**。
 
 ---
 

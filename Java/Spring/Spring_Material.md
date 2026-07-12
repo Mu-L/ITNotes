@@ -3,12 +3,11 @@ aliases: []
 tags:
   - java
   - spring
-  - springboot
-  - springmvc
+  - framework
   - material
   - list
 created: 2024-09-26 18:09:16
-modified: 2025-03-16 10:23:20
+modified: 2026-07-13 00:16:43
 ---
 
 # Spring 资料清单
@@ -29,8 +28,14 @@ modified: 2025-03-16 10:23:20
 
 ---
 
+## 文档
+
+* [Spring中文文档](https://springdoc.cn/spring-boot/)
+
+---
+
 ## 相关笔记
 
-* [Spring 笔记1](Spring_Note_1.md)
+* [Spring 笔记1](Spring_Note.md)
 * [SpringBoot 笔记](SpringBoot_Note.md)
 

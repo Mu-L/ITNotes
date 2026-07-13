@@ -11,7 +11,7 @@ tags:
   - video
   - tutorial
 created: 2023-08-18 19:44:52
-modified: 2025-08-06 22:16:47
+modified: 2026-07-13 03:08:08
 ---
 
 # Spring 视频清单
@@ -38,6 +38,7 @@ modified: 2025-08-06 22:16:47
 * [【精华版】2024吃透SpringBoot3全套视频教程，全程干货，拿走不谢，允许白嫖！！](https://www.bilibili.com/video/BV1SnpEeDEfJ)
 * [2025年吃透SpringBoot教程全集，涵盖所有核心知识点，拿走不谢，允许白嫖，让你少走99%的弯路](https://www.bilibili.com/video/BV1T6ioYzE8Q)
 * [目前B站最全最细的SpringBoot3全套教程，2025最新版，包含所有干货！](https://www.bilibili.com/video/BV1bv8czVE8U)
+* [【yootk李兴华】2021全新SpringBoot基于IDEA开发详细教学](https://www.bilibili.com/video/BV13V411e7ae)
 
 ---
 

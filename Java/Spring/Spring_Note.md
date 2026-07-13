@@ -5,7 +5,7 @@ tags:
   - spring
   - framework
 created: 2023-01-31 11:31:14
-modified: 2026-07-13 00:34:45
+modified: 2026-07-13 11:34:51
 ---
 
 # Spring 笔记
@@ -25,7 +25,7 @@ modified: 2026-07-13 00:34:45
 * **Spring 3.0**：发布于 **2009 年 12 月**。全面支持 Java 5，并引入了强大的 Spring EL 表达式
 * **Spring 4.0**：发布于 **2013 年 12 月**。全面支持 [Java 8](../Java_Note.md#JDK8) (包含 Lambda 表达式)，并引入了 WebSocket 支持。 
 * **Spring 5.0**：发布于 **2017 年 9 月**。引入了响应式编程模型（Reactive Streams）、核心全面升级支持 [Java 8](../Java_Note.md#JDK8)+，并重构了内部代码。
-* **Spring 6.0**：发布于 **2022 年 11 月**。作为里程碑式的版本，全面迈入 [Jakarta EE](../JAVA_EE_Note.md#Jakarta%20EE)（`jakarta.*` 命名空间）并要求最低 [JDK17](../Java_Note.md#JDK17)。
+* **Spring 6.0**：发布于 **2022 年 11 月**。作为里程碑式的版本，全面迈入 [Jakarta EE](../Java_EE_Note.md#Jakarta%20EE)（`jakarta.*` 命名空间）并要求最低 [JDK17](../Java_Note.md#JDK17)。
 * **Spring 7.0**：最新的主要产品线，当前活跃开发版本，基于 Java 17-25+ 标准和 Jakarta EE 11 构建。
 
 Spring 与 [JDK](../Java_Note.md#java_jdk) 版本大致的对应关系：
@@ -37,6 +37,12 @@ Spring 与 [JDK](../Java_Note.md#java_jdk) 版本大致的对应关系：
 > [!info] 
 > 
 > 各版本的生命周期可参考：[Spring Framework support](https://spring.io/projects/spring-framework#support)
+
+### Spring5
+
+### Spring6
+
+### Spring7
 
 ---
 

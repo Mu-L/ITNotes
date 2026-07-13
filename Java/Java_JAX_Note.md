@@ -14,7 +14,7 @@ modified: 2025-03-19 22:47:45
 
 ---
 
-[JAVA EE](JAVA_EE_Note.md) 中以「**JAX**」开头的技术都是以 [XML](../XML/XML_Note.md) 为核心「展开」的。
+[JAVA EE](Java_EE_Note.md) 中以「**JAX**」开头的技术都是以 [XML](../XML/XML_Note.md) 为核心「展开」的。
 
 > [!tip] 
 > 
@@ -35,5 +35,5 @@ modified: 2025-03-19 22:47:45
 ## 相关笔记
 
 * [Java 笔记](Java_Note.md)
-* [JAVA EE 笔记](JAVA_EE_Note.md)
+* [JAVA EE 笔记](Java_EE_Note.md)
 

@@ -93,5 +93,5 @@ maven 依赖：
 
 ## 相关笔记
 
-* [JAVA EE 笔记](JAVA_EE_Note.md)
+* [JAVA EE 笔记](Java_EE_Note.md)
 * [Java 笔记](Java_Note.md)

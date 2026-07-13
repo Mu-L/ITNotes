@@ -93,7 +93,7 @@ public class HelloServlet extends HttpServlet {
 
 ## JSP
 
-JSP 本质还是 [Servlet](#Servlet)。JSP 页面会被 [Web 容器](JAVA_EE_Note.md#Web%20容器) 转译为 Servlet 的 `.java` 源文件，并编译为 `.class` 文件，然后加载进容器，所以最后提供服务的还是 Servlet 实例。
+JSP 本质还是 [Servlet](#Servlet)。JSP 页面会被 [Web 容器](Java_EE_Note.md#Web%20容器) 转译为 Servlet 的 `.java` 源文件，并编译为 `.class` 文件，然后加载进容器，所以最后提供服务的还是 Servlet 实例。
 
 ### JSP 标签
 
@@ -200,7 +200,7 @@ public class CharacterEncoding implements Filter {
 
 ## 相关笔记
 
-* [JAVA EE 笔记](JAVA_EE_Note.md)
+* [JAVA EE 笔记](Java_EE_Note.md)
 * [JDBC 笔记](Java_JDBC_Note.md)
 * [Spring 笔记 1](Spring/Spring_Note.md) 
 * [Java 资料清单](Java_Material.md)

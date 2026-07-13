@@ -91,7 +91,7 @@ modified: 2026-06-20 21:15:51
 	* [Java_IncOperator](Java/Java_IncOperator.md)
 * [Java 视频清单](Java/Java_Videos.md)
 * [Java IO 笔记](Java/Java_IO_Note.md)
-* [JAVA EE 笔记](Java/JAVA_EE_Note.md)
+* [JAVA EE 笔记](Java/Java_EE_Note.md)
 * [JDBC 笔记](Java/Java_JDBC_Note.md)
 * [Java 网络笔记](Java/Java_Network.md)
 * [Java 日志 笔记](Java/Java_Log_Note.md)

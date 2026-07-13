@@ -5,7 +5,7 @@ tags:
   - javaee
   - jakartaee
 created: 2025-03-17 20:00:46
-modified: 2026-07-13 00:22:43
+modified: 2026-07-13 03:25:49
 ---
 
 # Java EE 笔记
@@ -43,6 +43,10 @@ Java EE 是一系列技术标准所组成的平台，包括：
 * StAX - Streaming APIs for XML Parsers
 * WS - Web Services
 * Applet - Java Applet
+
+### 架构
+
+![Jakarta EE Arch](./Java_EE_Note.assets/JakartaEE_arch.svg)
 
 ## 版本
 

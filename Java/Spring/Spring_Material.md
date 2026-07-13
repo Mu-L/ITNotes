@@ -7,7 +7,7 @@ tags:
   - material
   - list
 created: 2024-09-26 18:09:16
-modified: 2026-07-13 01:19:23
+modified: 2026-07-13 21:18:02
 ---
 
 # Spring 资料清单
@@ -27,6 +27,12 @@ modified: 2026-07-13 01:19:23
 ## Springboot
 
 * [SpringBoot 资料清单](SpringBoot_Material.md)
+
+---
+
+## 书籍
+
+* [Spring 实战 (第 6 版) MEAP · Spring In Action](https://leonli0102.github.io/spring-in-action-v6/)
 
 ---
 

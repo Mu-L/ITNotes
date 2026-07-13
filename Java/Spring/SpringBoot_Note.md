@@ -5,7 +5,7 @@ tags:
   - spring
   - springboot
 created: 2024-08-09 10:54:05
-modified: 2026-07-13 11:36:08
+modified: 2026-07-13 20:41:51
 ---
 
 # SpringBoot 笔记
@@ -24,7 +24,9 @@ SpringBoot （Stable 版）与 [JDK](../Java_Note.md#java_jdk") 、[Spring](Spri
 |    Maven    |  3.6.3+   |  3.6.3+   |   3.6.3+   |   3.6.3+   |  3.6.3+  |  3.6.3+   |   3.5+    |          3.5+          |
 |   Gradle    | 8.14+,9.x | 8.14+,9.x | 7.6.4+,8.x | 7.6.4+,8.x | 7.5+,8.x | 7.5+, 8.x | 7.5+, 8.x | 6.8.x, 6.9.x, 7.x, 8.x |
 
-从 `3.0`开始，SpringBoot 的[JDK](../Java_Note.md#java_jdk) 最低要求就是[JDK17](../Java_Note.md#JDK17) ，而[Spring](Spring_Note.md) 则为 [Spring6](Spring_Note.md#Spring6)。
+SpringBoot `3.x`， [JDK](../Java_Note.md#java_jdk) 最低要求就是 [JDK17](../Java_Note.md#JDK17) ，而[Spring](Spring_Note.md) 则为 [Spring6](Spring_Note.md#Spring6)。
+
+SpringBoot`4.x`， [Spring](Spring_Note.md) 要求则为 [Spring7](Spring_Note.md#Spring7)。
 
 > [!tip] 
 > 

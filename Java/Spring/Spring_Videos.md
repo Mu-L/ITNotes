@@ -3,6 +3,7 @@ aliases: []
 tags:
   - java
   - javaweb
+  - framework
   - spring
   - springmvc
   - springboot
@@ -10,8 +11,9 @@ tags:
   - list
   - video
   - tutorial
+  - course
 created: 2023-08-18 19:44:52
-modified: 2026-07-13 03:08:08
+modified: 2026-07-14 01:30:52
 ---
 
 # Spring 视频清单
@@ -20,12 +22,15 @@ modified: 2026-07-13 03:08:08
 
 ## Spring 基础
 
+* [Spring开发实战\_李兴华](https://www.bilibili.com/video/BV1144y1g7Q2)
 * [黑马 Spring框架教程](https://www.bilibili.com/video/BV1iz4y1b75q)
-* [黑马Java项目实战《苍穹外卖》SpringBoot+SSM的企业级Java项目实战](https://www.bilibili.com/video/BV1TP411v7v6)
-* [尚硅谷新版SSM框架全套视频教程，Spring6+SpringBoot3最新SSM企业级开发](https://www.bilibili.com/video/BV1AP411s7D7/)
 * [spring教程全套视频](https://www.bilibili.com/video/BV1T34y1N7CS)
+
+---
+
+## Spring MVC
+
 * [2023新版SpringMVC从入门到精通视频教程（26集全）](https://www.bilibili.com/video/BV1zc411B7Y9)
-* [2024最新最全最详细的 Spring+SpringBoot+springmvc+springcloud面试系列教程丨3天彻底吃透Spring全家桶，涨薪8K！](https://www.bilibili.com/video/BV1Dr42147su)
 
 ---
 
@@ -45,6 +50,14 @@ modified: 2026-07-13 03:08:08
 ## SpringCloud
 
 * [尚硅谷2025最新SpringCloud教程，springcloud从入门到大牛](https://www.bilibili.com/video/BV1UJc2ezEFU)
+
+---
+
+## 综合
+
+* [黑马Java项目实战《苍穹外卖》SpringBoot+SSM的企业级Java项目实战](https://www.bilibili.com/video/BV1TP411v7v6)
+* [尚硅谷新版SSM框架全套视频教程，Spring6+SpringBoot3最新SSM企业级开发](https://www.bilibili.com/video/BV1AP411s7D7/)
+* [2024最新最全最详细的 Spring+SpringBoot+springmvc+springcloud面试系列教程丨3天彻底吃透Spring全家桶，涨薪8K！](https://www.bilibili.com/video/BV1Dr42147su)
 
 ---
 

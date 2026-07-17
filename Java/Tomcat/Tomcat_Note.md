@@ -4,12 +4,13 @@ tags:
   - java
   - tomcat
   - apache
-  - web
   - javaweb
+  - javaee
+  - jakartaee
   - webserver
   - container
 created: 2023-08-18 19:44:52
-modified: 2026-07-17 22:06:56
+modified: 2026-07-18 03:37:01
 ---
 
 # Tomcat 笔记
@@ -22,6 +23,10 @@ modified: 2026-07-17 22:06:56
 	* [配端口](#tomcat_config_port)
 
 ---
+
+## 简介
+
+[Tomcat](https://tomcat.apache.org) 是一个 [Java](../Java_Note.md) 的 Web 服务器。
 
 ## <span id="tomcat_versions">Tomcat 版本</span>
 
@@ -38,6 +43,17 @@ Tomcat 版本与 Java 版本、Servlet 版本、JSP 版本等对应关系：[wic
 > 版本相关资料：[版本](Tomcat_Material.md#版本)
 
 ---
+
+## <span id="tomcat_install">安装</span>
+
+### 方式 1
+
+到 Tomcat 官网：[https://tomcat.apache.org](https://tomcat.apache.org) 下载所需要的压缩包，解压就能用。
+
+### 方式 2
+
+* 在 **Windows** 下，可以使用 [Scoop](../../Scoop/Scoop_Note.md) 进行安装。
+* 在 [Linux](../../Linux/Linux_Note.md)下，可以使用[SDKMan](../Java_Note.md#java_sdkman)进行安装，使用 sdkman 可以进行多个[版本](#tomcat_versions) 切换使用，非常方便。
 
 ## <span id="tomcat_config">配置</span>
 

@@ -3,17 +3,21 @@ aliases: []
 tags:
   - video
   - java
+  - javase
+  - javaee
+  - jakartaee
   - tutorial
+  - course
   - list
 created: 2023-06-24 01:08:17
-modified: 2025-09-30 19:31:47
+modified: 2026-07-14 01:37:22
 ---
 
 # Java 视频清单
 
 ---
 
-## 基础
+## Java SE
 
 * [新版Java入门全套视频教程285集完整版(纯小白专享)-千锋](https://www.bilibili.com/video/BV1HN4y1m73i)
 * [2023年 java 面试题200问](https://www.bilibili.com/video/BV1wX4y1h7YG)
@@ -49,10 +53,11 @@ modified: 2025-09-30 19:31:47
 
 * [新版Java分布式核心技术Redis&FastDFS&RabbitMQ教程](https://www.bilibili.com/video/BV1Ui421h78R)
 
----
+### Java EE
 
-## JavaWeb 基础
+ #JakartaEE
 
+* [【李兴华编程训练营】JavaWEB开发实战](https://www.bilibili.com/video/BV1R54y177Et)
 * [2023新版JavaWeb从入门到精通视频教程(95集全)](https://www.bilibili.com/video/BV1Pj411a7fc)
 
 ---
@@ -68,6 +73,13 @@ modified: 2025-09-30 19:31:47
 * [【2023版】马士兵再讲JVM从入门到实战全套教程](https://www.bilibili.com/video/BV1jP411f7SS)
 * [【2024精选版】这可能是B站讲的最好的JVM教程](https://www.bilibili.com/video/BV1Sc411X7JE)
 
+### 字节码
+
+* [字节码规范](https://www.bilibili.com/video/BV194421Z7Xv)
+* [一个视频学会asm](https://www.bilibili.com/video/BV1sW42197eG)
+* [javaassist字节码工具介绍](https://www.bilibili.com/video/BV1Gw41157Jx)
+* [ByteBuddy杂谈](https://www.bilibili.com/video/BV13m42137Ct)
+
 ---
 
 ## 消息
@@ -75,13 +87,6 @@ modified: 2025-09-30 19:31:47
 * [黑马程序员RabbitMQ入门到实战教程](https://www.bilibili.com/video/BV1mN4y1Z7t9)
 * [尚硅谷RabbitMQ教程丨快速掌握MQ消息中间件rabbitmq](https://www.bilibili.com/video/BV1cb4y1o7zz)
 * [RabbitMQ 消息队列 理论与实战 已完结（2023最新版）](https://www.bilibili.com/video/BV1Sh411579p)
-
-### 字节码
-
-* [字节码规范](https://www.bilibili.com/video/BV194421Z7Xv)
-* [一个视频学会asm](https://www.bilibili.com/video/BV1sW42197eG)
-* [javaassist字节码工具介绍](https://www.bilibili.com/video/BV1Gw41157Jx)
-* [ByteBuddy杂谈](https://www.bilibili.com/video/BV13m42137Ct)
 
 ---
 

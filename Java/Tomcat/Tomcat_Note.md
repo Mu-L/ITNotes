@@ -4,14 +4,12 @@ tags:
   - java
   - tomcat
   - apache
-  - servlet
-  - jsp
-  - jdk
   - web
   - javaweb
+  - webserver
   - container
 created: 2023-08-18 19:44:52
-modified: 2025-07-30 21:40:07
+modified: 2026-07-17 22:06:56
 ---
 
 # Tomcat 笔记
@@ -19,6 +17,7 @@ modified: 2025-07-30 21:40:07
 ---
 
 ## 目录
+
 * [配置](#tomcat_config)
 	* [配端口](#tomcat_config_port)
 

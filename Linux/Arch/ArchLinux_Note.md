@@ -8,7 +8,7 @@ tags:
   - ime
 date created: 2022-11-08 11:32
 created: 2023-08-18 19:44:52
-modified: 2026-05-29 21:13:08
+modified: 2026-07-14 11:35:53
 ---
 
 # ArchLinux 笔记
@@ -26,7 +26,13 @@ modified: 2026-05-29 21:13:08
 
 ## <span id="archlinux_configs">配置</span>
 
+### <span id="archlinux_configs_mirror">镜像</span>
+
+`/etc/pacman.d/mirrorlist` 文件，顾名思义，镜像地址列表文件，可以在其中添加需要的镜像地址。
+
 ### <span id="archlinux_configs_chsources">换源</span>
+
+换源其实就是更换 [镜像](#archlinux_configs_mirror)。
 
 可以使用以下命令快速探测出速度较快的国内镜像源：
 
@@ -126,6 +132,22 @@ pacman -Syyuu
 
 `pacman` 是 Archlinux 的包管理器。
 
+### <span id="archlinux_pacman_config">pacman 配置</span>
+
+`pacman` 命令配置文件：`/etc/pacman.conf`
+
+#### 升级前比较版本
+
+将 `pacman.conf`文件中`VerbosePkgLists` 这个配置项注释去掉，即可实现在升级前显示新旧版本信息。
+
+#### 跳过软件包升级
+
+`IgnorePkg` 的配置项中指定要跳过的软件包名称，如：
+
+```shell
+IgnorePkg = sublime-text-4 lib32-mesa mesa
+```
+
 ### <span id="archlinux_pacman_commands">pacman 命令</span>
 
 #### 参数
@@ -183,7 +205,7 @@ pacman -Syyuu
 * `pacman -R 软件包名`：删除某软件
 * `pacman -Rs 软件包`：删除指定软件包，以其所有没有被其他已安装软件包使用的依赖关系
 
-#### Pactree
+#### pactree
 
 `pactree` 命令是用来查看包依赖树的，格式：`pactree 包名`。
 

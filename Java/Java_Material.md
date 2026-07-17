@@ -3,10 +3,13 @@ aliases: []
 tags:
   - material
   - java
+  - javase
+  - javaee
+  - jakartaee
   - jdk
   - list
 created: 2024-08-28 23:40:22
-modified: 2025-10-22 02:52:08
+modified: 2026-07-14 19:59:26
 ---
 
 # Java 资料清单
@@ -112,6 +115,7 @@ modified: 2025-10-22 02:52:08
 ## Java EE
 
 * [JSR规范系列（7）——Jakarta EE 10 规范-CSDN博客](https://blog.csdn.net/ni_hao_fan/article/details/128370174)
+* [Java EE改名Jakarta EE，jakarta对程序开发的影响](https://zhuanlan.zhihu.com/p/687658187)
 
 ### Servlet
 

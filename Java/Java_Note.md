@@ -7,7 +7,7 @@ tags:
   - Eclipse
   - dbeaver
 created: 2023-01-30 11:19:11
-modified: 2026-07-19 02:15:46
+modified: 2026-07-20 00:52:20
 ---
 
 # Java 笔记
@@ -90,6 +90,16 @@ Temurin JDK 清华镜像：[https://mirror.tuna.tsinghua.edu.cn/Adoptium/](https
 源码地址：[https://github.com/microsoft/openjdk](https://github.com/microsoft/openjdk)
 
 ---
+
+### JDK5
+
+俗称为 Java 1.5
+
+### JDK6
+
+俗称为 Java 1.6
+
+### JDK7
 
 ### JDK8 
 

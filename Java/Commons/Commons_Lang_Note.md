@@ -7,7 +7,7 @@ tags:
   - commons
   - commons-lang
 created: 2026-07-19 02:13:15
-modified: 2026-07-20 01:02:01
+modified: 2026-07-20 01:03:37
 ---
 
 # Commons Lang 笔记
@@ -41,3 +41,4 @@ Commons 依赖 [JDK](../Java_Note.md#java_jdk) 版本：
 ## 相关笔记
 
 * [Commons 笔记](Commons_Note.md)
+* [Java 笔记](../Java_Note.md)

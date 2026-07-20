@@ -7,7 +7,7 @@ tags:
   - vscode-extension
   - list
 created: 2023-08-10 15:44:32 
-modified: 2026-05-26 02:45:13
+modified: 2026-07-20 01:41:17
 
 ---
 
@@ -545,9 +545,16 @@ Runtime 名称列表：[runtime name](https://github.com/redhat-developer/vscode
 
 此插件方便创建、打开并管理 Java 项目。
 
+> [!important] 
+> 
+> 此插件需要依赖 [RedHat-Java](#RedHat-Java) 插件。
+
 > [!info] 
 > 
-> 如果要打开一个非 [Maven](../Java/Maven/Maven_Note.md) 项目，不能使用 [VSCode](VSCode_Note.md) 自带的项目功能将项目目录加入到工作区中，而是得使用此插件打开相关目录。不然会出现当前目录没法正确添加到 classpath 中，出现 Java 文件编译和运行错误。
+> 如果要打开一个非 [Maven](../Java/Maven/Maven_Note.md) 项目，不能使用 [VSCode](VSCode_Note.md) 自带的项目功能将项目目录加入到工作区中，而是得使用此插件打开相关目录。不然有「可能」会出现当前目录没法正确添加到 classpath 中，出现 Java 文件编译和运行错误。
+> 
+> 此插件有没有被「Active」（激活）生效，得看侧边栏下方有没有出现「Java Projects」折叠目录出现，如果出现了，证明此插件被激活了。
+>
 > 
 > ![Project Manager for Java import Java project](VSCode_Extensions_Note.assets/vscode_java_project_manager.png)
 
@@ -557,7 +564,9 @@ Runtime 名称列表：[runtime name](https://github.com/redhat-developer/vscode
 
 ![Project Manager for Java screenshot 3](https://raw.githubusercontent.com/Microsoft/vscode-java-dependency/main/images/manage-dependencies.gif)
 
-此插件需要依赖 [RedHat-Java](#RedHat-Java) 插件。
+> [!info] 
+> 
+> 如果想不使用 `.vscode`目录中的配置文件设置，又想让当前已打开的目录「变成」Java 项目。可以新建一个 Java 文件，那该插件自动会激活，将当前目录转成 Java 项目，「Java Projects」折叠目录就会随之出现，要添加所需的`jar`包，也能在此折叠目录中的「Referenced Library」中添加，就跟[Eclipse](../Java/IDE/Java_IDE_Eclipse.md) 类似。
 
 #### Maven for Java
 

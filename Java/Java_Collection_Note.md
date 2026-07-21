@@ -5,7 +5,7 @@ tags:
   - collection
   - map
 created: 2026-07-20 20:53:28
-modified: 2026-07-20 20:57:42
+modified: 2026-07-20 20:59:35
 ---
 
 # Java 集合框架笔记
@@ -162,3 +162,5 @@ classDiagram
 
 * [Java 笔记](Java_Note.md)
 * [Java 基础语法笔记](Java_Base_Note.md)
+* [Java 资料清单](Java_Material.md)
+* [Java 视频清单](Java_Videos.md)

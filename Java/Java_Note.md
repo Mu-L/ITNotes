@@ -7,7 +7,7 @@ tags:
   - Eclipse
   - dbeaver
 created: 2023-01-30 11:19:11
-modified: 2026-07-20 00:52:20
+modified: 2026-07-21 20:07:04
 ---
 
 # Java 笔记
@@ -377,15 +377,26 @@ sdk install tomcat 11.0.18
 
 ---
 
-## <span id="java_commands">java 命令使用</span>
+## <span id="java_commands">JDK 命令</span>
 
 ### <span id="java_commands_javac">javac</span>
 
-命令一般格式：`javac xxx.java` ，即可编译 java 代码。
+`javac` 是 java 的编译命令，将 `.java`文件编译成`.class` 文件，就靠这个命令。
 
-常用选项：
+命令语法：`javac <options> <source files>`
 
-`javac -g xxx.java` 在编译 java 代码时加上 `-g` 选项，可以在使用 `javap` 命令时显示「局部变量表」的信息。 
+> [!example] 
+> 
+> 最常用的编译用法：
+> 
+> `javac xxx.java` 
+
+#### 常用选项
+
+`-g`： 生成所有调试信息
+
+`javac -g xxx.java` 在编译 java 代码时加上 `-g` 选项，可以在使用 `javap` 命令时显示「局部变量表」的信息：
+
 ```shell
 LocalVariableTable:
 	Start  Length  Slot  Name   Signature

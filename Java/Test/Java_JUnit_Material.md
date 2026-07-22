@@ -7,7 +7,7 @@ tags:
   - material
   - list
 created: 2025-10-07 02:28:02
-modified: 2026-07-22 11:39:35
+modified: 2026-07-23 03:34:54
 ---
 
 # JUnit 资料清单
@@ -25,4 +25,5 @@ modified: 2026-07-22 11:39:35
 ## 相关笔记
 
 * [JUnit 笔记](Java_JUnit_Note.md)
+* [Java 测试框架视频清单](Java_Test_Videos.md)
 * [Java 笔记](../Java_Note.md)

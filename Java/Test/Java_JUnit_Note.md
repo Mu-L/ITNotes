@@ -5,7 +5,7 @@ tags:
   - test
   - junit
 created: 2025-10-07 02:26:59
-modified: 2026-07-22 04:09:14
+modified: 2026-07-22 04:11:24
 ---
 
 # Junit 笔记
@@ -75,6 +75,10 @@ JUnit Jupiter 提供了 JUnit 5 的新的编程模型，是 JUnit 5 新特性的
 	</dependency>
 </dependencies>
 ```
+
+> [!info] 
+> 
+> JUnit-bom 的 maven 远程仓库： [https://central.sonatype.com/artifact/org.junit/junit-bom](https://central.sonatype.com/artifact/org.junit/junit-bom)
 
 ---
 

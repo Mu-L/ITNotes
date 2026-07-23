@@ -5,7 +5,7 @@ tags:
   - test
   - junit
 created: 2025-10-07 02:26:59
-modified: 2026-07-23 03:34:18
+modified: 2026-07-23 19:58:45
 ---
 
 # Junit 笔记
@@ -22,6 +22,8 @@ modified: 2026-07-23 03:34:18
 | [JUnit 5](#JUnit%205) | 2017 年  |  [Java 8](../Java_Note.md#JDK8)  |                                   采用模块化设计（Platform + Jupiter + Vintage），扩展性强，广泛应用于现代 Java 项目。                                   |
 | [JUnit 4](#JUnit%204) | 2006 年  |  [Java 5](../Java_Note.md#JDK5)  |                                 曾长期统治 Java 测试领域，广泛使用注解，由于年代较久远，目前许多新项目已逐渐弃用或迁移。                                 |
 | [JUnit 3](#JUnit%203) | 1998 年  |  [Java 5](../Java_Note.md#JDK5)  | JUnit 3 引入了基本的测试结构，测试方法需要继承自 `junit.framework.TestCase`，并且测试方法必须以`test` 开头。这个版本奠定了 JUnit 作为单元测试框架的基础。 |
+
+---
 
 ## JUnit 3
 

@@ -5,7 +5,7 @@ tags:
   - maven
   - jdk
 created: 2023-01-31 11:31:14
-modified: 2025-10-12 02:50:58
+modified: 2026-07-24 02:26:11
 ---
 
 # Maven 笔记
@@ -859,6 +859,12 @@ package: com.silascript.exercise
 3587: local -> za.co.absa.hyperdrive:component-archetype_2.12 (-)
 Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): 2275: 
 ```
+
+> [!info]
+> 
+> archtype 是放在：`org/apache/maven/archetypes` 目录中。
+>
+> 实际情况，你得看你配没配本地仓库，如果没有，默认就是在 `.m2/repositories/org/apache/maven/archetypes`目录，而如果配了本地仓库，就是`本地仓库路径/org/apache/maven/archetypes` 目录。
 
 #### remote
 

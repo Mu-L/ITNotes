@@ -5,7 +5,7 @@ tags:
   - unicode
   - cjk
 created: 2023-01-31 11:31:14
-modified: 2025-11-12 11:52:04
+modified: 2026-08-13 04:32:15
 ---
 
 # 字体笔记
@@ -152,13 +152,17 @@ Google 版宋体的叫「Noto Serif CJK」，Adobe 版宋体叫「Source Han Ser
 
 * 昭源宋体 [![chiron-sunng-hk repo](https://img.shields.io/github/stars/chiron-fonts/chiron-sung-hk?style=social)](https://github.com/chiron-fonts/chiron-sung-hk) 
 
-思源宋
-
-![思源宋](https://chiron-fonts.github.io/technical-details/motivation/familiar-1.svg)
-
 昭源宋
 
-![昭源宋](https://chiron-fonts.github.io/technical-details/motivation/familiar-9.svg)
+对比 1：
+
+思源宋：<img src="https://chiron-fonts.github.io/build/familiar-1.aMuzu7e__Z2tHUMD.svg" style="filter: invert(100%);">
+昭源宋：<img src="https://chiron-fonts.github.io/build/familiar-9.C_MDEvJV_2uptob.svg" style="filter: invert(100%);">
+
+对比 2：
+
+思源宋：<img src="https://chiron-fonts.github.io/build/relax-1.DC_7tQFg_Z2tjvDv.svg" style="filter: invert(100%);">
+昭源宋：<img src="https://chiron-fonts.github.io/build/relax-9.rDcAYQqM_Z2tfrrO.svg" style="filter: invert(100%);">
 
 ##### <span id="fonts_zh_notofont_nowar">有爱黑体</span>
 
@@ -436,6 +440,7 @@ Cascadia Code 版本差异：
 ## 其他链接
 
 * [thisfaner](https://www.thisfaner.com/p/font-collection/)
+* [一點明體](https://github.com/ichitenfont/I.Ming)
 * [天珩的小站](http://cheonhyeong.com/)
 * [Free-Chinese-Fonts](http://zenozeng.github.io/Free-Chinese-Fonts/)
 * [遍黑体项目](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project)

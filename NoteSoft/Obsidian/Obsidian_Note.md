@@ -5,7 +5,7 @@ tags:
   - notesoft
   - obsidian
 created: 2023-01-13 12:27:45
-modified: 2026-05-17 11:15:23
+modified: 2026-08-13 04:33:15
 ---
 
 # Obsidian 笔记
@@ -1842,6 +1842,24 @@ obsidian rm vault路径
 > [!important] 
 > 
 > 如果违反上述两条，Obsidian 内直接使用 [Html](../../Frontend/Html_Note.md) 的表格相关标签将渲染失败。
+
+### svg
+
+如果要引用外部 svg 图片，可以直接在 [Markdown](../../Markdown/Markdown_Note.md)中使用[Html](../../Frontend/Html_Note.md)的`img` 标签进行引用。
+
+例如：
+
+```markdown
+<img src="https://chiron-fonts.github.io/build/relax-1.DC_7tQFg_Z2tjvDv.svg">
+```
+
+如果要设置 svg 前景色，如果原图是前景色是黑色，在 Obsidian 暗色主题下，可能显示不出，这就需要将其「反转」，所以可以使用行内的 CSS，即使用 `style`属性，添加`invert` 值，示例：
+
+```markdown
+<img src="https://chiron-fonts.github.io/build/relax-1.DC_7tQFg_Z2tjvDv.svg" style="filter: invert(100%);">
+```
+
+设置完了，得重启 Obsidian，才会刷新出实际效果。
 
 ---
 

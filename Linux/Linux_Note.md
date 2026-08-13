@@ -10,7 +10,7 @@ tags:
   - shell
   - network
 created: 2023-08-18 19:44:52
-modified: 2026-05-14 19:59:40
+modified: 2026-08-13 11:39:48
 ---
 
 # Linux 笔记
@@ -1454,6 +1454,17 @@ unset https_proxy
 
 * `pgrep '进程名' -a`：显示进程 PID 及进程的程序全路径名
 * `pgrep '进程名' -l`：显示进程 PID 及进程名，比上面的简洁一些
+
+---
+
+## 字体
+
+Linux 中安装 [字体](../Fonts/Fonts_Note.md)，就是把字体文件丢到指定目录下，刷新下即可。
+
+* 全局安装：`/usr/share/fonts`
+* 用户安装：`~/.local/share/fonts`
+
+刷新命令：`fc-cache -fv`
 
 ---
 

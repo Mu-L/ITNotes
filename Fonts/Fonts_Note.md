@@ -5,7 +5,7 @@ tags:
   - unicode
   - cjk
 created: 2023-01-31 11:31:14
-modified: 2026-08-14 23:36:24
+modified: 2026-08-15 03:54:16
 ---
 
 # 字体笔记
@@ -380,7 +380,17 @@ Google 版宋体的叫「Noto Serif CJK」，Adobe 版宋体叫「Source Han Ser
 
 ![京华老宋体3.0 测试](./Fonts_Note.assets/京华老宋体3.0测试.png)
 
-### 寒蟬活字
+### 上元明朝
+
+[上元明朝](https://github.com/GuiWonder/LanternMing) 一个衍生自醍醐明朝和花园明朝的旧字形字体。
+
+![LanternMing preview](https://raw.githubusercontent.com/GuiWonder/LanternMing/main/pictures/hn002.jpg)
+
+![LanternMing Test](./Fonts_Note.assets/上元明朝测试.png)
+
+### 寒蝉字体
+
+#### 寒蝉活字
 
 [寒蟬活字](https://github.com/Warren2060/ChillMovableType) 是一款模拟油墨印刷效果的字体项目。
 
@@ -389,10 +399,16 @@ Google 版宋体的叫「Noto Serif CJK」，Adobe 版宋体叫「Source Han Ser
 * 寒蟬活黑體
 * 寒蟬活宋體
 * 寒蟬活仿宋
-* 寒蟬活楷體
+* 寒蟬活楷體：基于 [寒蝉正楷](#寒蝉正楷) 修改的
 * 寒蟬活仿楷
 
 ![寒蟬活字 preview | 800x900](https://private-user-images.githubusercontent.com/87366329/331935311-331fb6b0-1b7e-4832-a273-236313a476da.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODY3MTMzMzksIm5iZiI6MTc4NjcxMzAzOSwicGF0aCI6Ii84NzM2NjMyOS8zMzE5MzUzMTEtMzMxZmI2YjAtMWI3ZS00ODMyLWEyNzMtMjM2MzEzYTQ3NmRhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA4MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwODE0VDEzMTAzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZmYjQ1NDYxZDU2NDU1N2YyNjYxY2E0YmE1MTU2NmJmNTRmYzUwYzIwOGFlMWM4N2QwZGViYTM4OTc0NjI4YjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.RM4hr8uoAzaOX3sHZp96YyZuni8arCbUL-bac4cmnX0)
+
+#### 寒蝉正楷
+
+[寒蝉正楷](https://github.com/Warren2060/Chillkai) 是将台湾全字库正楷体中的西文优化而成的一款字体。
+
+![Chillkai preview | 1024x600](https://private-user-images.githubusercontent.com/87366329/242528184-86279963-c801-46a9-bef8-ade689d932cb.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODY3MzcyMzYsIm5iZiI6MTc4NjczNjkzNiwicGF0aCI6Ii84NzM2NjMyOS8yNDI1MjgxODQtODYyNzk5NjMtYzgwMS00NmE5LWJlZjgtYWRlNjg5ZDkzMmNiLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA4MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwODE0VDE5NDg1NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNjODIwNmY0N2YzMTk5MGExN2UwN2E5YTU5MjJiMDdiMmFlN2M3Y2Y5YTBmNDIxNjhmOWNjOWUyNWY1YjRhZjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmpwZWcifQ.9PLOCBankIJ6qaLKGstFpDHmoEEhzCJ6lr2aUjQnI7A)
 
 ### 霞鶩文楷
 
@@ -521,18 +537,6 @@ Cascadia Code 版本差异：
 ## 各种字体工具
 
 [字体汉字计数软件](https://github.com/NightFurySL2001/CJK-character-count)
-
----
-
-## 其他链接
-
-* [thisfaner](https://www.thisfaner.com/p/font-collection/)
-* [一點明體](https://github.com/ichitenfont/I.Ming)
-* [天珩的小站](http://cheonhyeong.com/)
-* [Free-Chinese-Fonts](http://zenozeng.github.io/Free-Chinese-Fonts/)
-* [遍黑体项目](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project)
-* [开心宋](https://www.guoxuedashi.net/zidian/bujian/)
-* [校园网联合镜像站 - 字体](https://mirrors.cernet.edu.cn/font)
 
 ---
 

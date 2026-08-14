@@ -5,7 +5,7 @@ tags:
   - material
   - list
 created: 2025-07-31 03:39:18
-modified: 2025-11-12 11:51:35
+modified: 2026-08-15 00:55:59
 ---
 
 # 字体资料清单
@@ -29,6 +29,23 @@ modified: 2025-11-12 11:51:35
 ## 全角与半角
 
 * [The Type — 文字 / 设计 / 文化 — 全角半角碎碎念](https://www.thetype.com/2018/02/14211/)
+
+---
+
+## 字体链接
+
+* [一點明體](https://github.com/ichitenfont/I.Ming)
+* [天珩的小站](http://cheonhyeong.com/)
+* [Free-Chinese-Fonts](http://zenozeng.github.io/Free-Chinese-Fonts/)
+* [遍黑体项目](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project)
+* [开心宋](https://www.guoxuedashi.net/zidian/bujian/)
+
+### 汇总
+
+* [校园网联合镜像站 - 字体](https://mirrors.cernet.edu.cn/font)
+* [font-collection](https://www.thisfaner.com/p/font-collection/)
+* [開源中文字體收藏](https://blog.yucheng.me/post/open-source-chinese-font-list/)
+* [中文开源字体集 Open Source Fonts Collection for Chinese \| OSFCC](https://drxie.github.io/OSFCC/)
 
 ---
 

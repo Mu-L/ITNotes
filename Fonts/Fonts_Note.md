@@ -5,7 +5,7 @@ tags:
   - unicode
   - cjk
 created: 2023-01-31 11:31:14
-modified: 2026-08-14 12:00:12
+modified: 2026-08-14 20:45:31
 ---
 
 # 字体笔记
@@ -154,11 +154,14 @@ Google 版宋体的叫「Noto Serif CJK」，Adobe 版宋体叫「Source Han Ser
 
 [源音黑体](https://github.com/MoneMizuno/Genne-Gothic) 是修改于思源黑体的字体。主要是将一些字型改为旧字形。
 
-![GenneGothicFontPreview](https://github.com/MoneMizuno/Genne-Gothic/blob/master/Other/Images/GenneGothicFontPreview.png)
+![GenneGothicFontPreview | 1024x600](https://raw.githubusercontent.com/MoneMizuno/Genne-Gothic/master/Other/Images/GenneGothicFontPreview.png)
 
 ##### <span id="fonts_zh_notofont_genyog">源样黑体</span>
 
 [源样黑体](https://github.com/ButTaiwan/genyog-font) 是以思源韩版的字符为主，加配繁中置中标点而成的。
+
+> [!info] 
+> 
 > 韩版思源的字符都是旧字形。思源衍生字体如果是倾向旧字形，一般都从思源韩版中取字符。
 
 ##### <span id="fonts_zh_notofont_genseki">源石黑体</span>
@@ -172,8 +175,8 @@ Google 版宋体的叫「Noto Serif CJK」，Adobe 版宋体叫「Source Han Ser
 [昭源字体](https://chiron-fonts.github.io) 是基于思源香港版修改而成的。
 
 昭源字体同样分为黑体和宋体两种：
-* 昭源黑体 [![chiron-hei-hk repo](https://img.shields.io/github/stars/chiron-fonts/chiron-hei-hk?style=social)](https://github.com/chiron-fonts/chiron-hei-hk)
 
+* 昭源黑体 [![chiron-hei-hk repo](https://img.shields.io/github/stars/chiron-fonts/chiron-hei-hk?style=social)](https://github.com/chiron-fonts/chiron-hei-hk)
 * 昭源宋体 [![chiron-sunng-hk repo](https://img.shields.io/github/stars/chiron-fonts/chiron-sung-hk?style=social)](https://github.com/chiron-fonts/chiron-sung-hk) 
 
 昭源宋

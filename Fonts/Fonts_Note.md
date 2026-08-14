@@ -5,7 +5,7 @@ tags:
   - unicode
   - cjk
 created: 2023-01-31 11:31:14
-modified: 2026-08-13 04:32:15
+modified: 2026-08-14 12:00:12
 ---
 
 # 字体笔记
@@ -80,6 +80,14 @@ GB 18030-2022，更新至 Unicode 11 中日韩统一表意文字（增补了基�
 
 ---
 
+### <span id="fonts_zh_inheritedglyphs">传承字形</span>
+
+传承字形也称为「旧字形」。
+
+* [傳承字形標準化文件](https://github.com/ichitenfont/inheritedglyphs)
+
+---
+
 ### <span id="fonts_zh_notofont">思源字体</span>
 
 [思源字体](https://fonts.google.com/noto/fonts) 是 Adobe 和 Google 领导开发的开源字体家族。 #font/noto
@@ -125,6 +133,22 @@ Google 版宋体的叫「Noto Serif CJK」，Adobe 版宋体叫「Source Han Ser
 #### <span id="fonts_zh_notofont_child">思源的各种衍生字体</span>
 
 因为思源字体是开源字体，所以出现了各式各样的衍生字体。
+
+##### <span>秋空黑体</span>
+
+[秋空黑体](https://github.com/ChiuMing-Neko/ChiuKongGothic) 是「一款基於思源黑體，同時整合異體字選擇器功能的中文印刷體風格字體」。
+
+这是一款支持 [传承字形](#fonts_zh_inheritedglyphs) 的字体。
+
+<img src="https://github.com/ChiuMing-Neko/ChiuKongGothic/raw/main/images/ChiuKongGothicLogo_Dark.svg#gh-dark-mode-only" style="width:45em;height:auto;">
+
+##### <span id="fonts_zh_notofont_child_chiukongmincho">秋空明朝</span>
+
+[秋空󠄁明󠄁朝󠄁](https://github.com/ChiuMing-Neko/ChiuKongMincho) 「是一款以思源明體 V2 為基礎進行二次修改而成，使用傳統印刷體筆形設計」。
+
+这是一款支持 [传承字形](#fonts_zh_inheritedglyphs) 的字体。
+
+<img src="https://github.com/ChiuMing-Neko/ChiuKongMincho/raw/master/public/images/ChiuKongMinchoLogo_Dark.svg#gh-dark-mode-only" style="filter:invert(10%);width:45em;height:auto;">
 
 ##### <span id="fonts_zh_notofont_genne">源音黑体</span>
 
@@ -327,6 +351,31 @@ Google 版宋体的叫「Noto Serif CJK」，Adobe 版宋体叫「Source Han Ser
 ##### <span id="fonts_zh_glow-sans">未来荧黑</span>
 
 [未来荧黑](https://github.com/welai/glow-sans)
+
+---
+
+### <span id="fonts_zh_iming">一點明體</span>
+
+[GitHub - ichitenfont/I.Ming: I.Ming ( I.明體 / 一点明朝体 / 一點明體 ) · GitHub](https://github.com/ichitenfont/I.Ming) 是一款支持 [传承字形](#fonts_zh_inheritedglyphs) 的字体。
+
+其字体制作依据是 [《傳承字形標準化文件》](https://github.com/ichitenfont/inheritedglyphs)。
+
+可以说它是《傳承字形標準化》这个项目的示范性字体！
+
+### 京华老宋体
+
+[京华老宋体](https://github.com/cntrump/imitation_typeface_fonts) 是一款仿铅印字体。
+
+版本更新到 3.0，还细分了不同版本：
+
+1. 原版 京華老宋体
+2. 京華老宋体 -GB 印通表字形
+3. 京華老宋体 -GJ 古籍表字形
+4. 京華老宋体 -I. 檢校表推薦形
+5. 京華老宋体 -MN 折中印刷字形
+6. 京華老宋体 -LT 原版鉛字字形
+
+![京华老宋体3.0 测试](./Fonts_Note.assets/京华老宋体3.0测试.png)
 
 ---
 ## <span id="fonts_program">编程字体</span>

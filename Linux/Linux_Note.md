@@ -10,7 +10,7 @@ tags:
   - shell
   - network
 created: 2023-08-18 19:44:52
-modified: 2026-08-13 11:39:48
+modified: 2026-08-14 11:37:57
 ---
 
 # Linux 笔记
@@ -956,10 +956,19 @@ awk 语法结构：`awk 'pattern {action} pattern {action}..' 文件`
 fc-cache -fv
 ```
 
+### 字体相关命令
+
 查看字体：
+
 ```shell
 # 查看中文字体
 fc-list :lang=zh
+```
+
+搜索字体：
+
+```shell
+fc-list :lang=zh | grep -i "wqy"
 ```
 
 ---

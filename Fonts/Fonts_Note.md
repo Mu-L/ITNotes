@@ -5,7 +5,7 @@ tags:
   - unicode
   - cjk
 created: 2023-01-31 11:31:14
-modified: 2026-08-14 20:45:31
+modified: 2026-08-14 23:36:24
 ---
 
 # 字体笔记
@@ -379,6 +379,41 @@ Google 版宋体的叫「Noto Serif CJK」，Adobe 版宋体叫「Source Han Ser
 6. 京華老宋体 -LT 原版鉛字字形
 
 ![京华老宋体3.0 测试](./Fonts_Note.assets/京华老宋体3.0测试.png)
+
+### 寒蟬活字
+
+[寒蟬活字](https://github.com/Warren2060/ChillMovableType) 是一款模拟油墨印刷效果的字体项目。
+
+这个项目字体家族分别有：
+
+* 寒蟬活黑體
+* 寒蟬活宋體
+* 寒蟬活仿宋
+* 寒蟬活楷體
+* 寒蟬活仿楷
+
+![寒蟬活字 preview | 800x900](https://private-user-images.githubusercontent.com/87366329/331935311-331fb6b0-1b7e-4832-a273-236313a476da.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODY3MTMzMzksIm5iZiI6MTc4NjcxMzAzOSwicGF0aCI6Ii84NzM2NjMyOS8zMzE5MzUzMTEtMzMxZmI2YjAtMWI3ZS00ODMyLWEyNzMtMjM2MzEzYTQ3NmRhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA4MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwODE0VDEzMTAzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZmYjQ1NDYxZDU2NDU1N2YyNjYxY2E0YmE1MTU2NmJmNTRmYzUwYzIwOGFlMWM4N2QwZGViYTM4OTc0NjI4YjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.RM4hr8uoAzaOX3sHZp96YyZuni8arCbUL-bac4cmnX0)
+
+### 霞鶩文楷
+
+[霞鹜文楷](https://github.com/lxgw/LxgwWenkai) 是基于日本 Klee One 衍生的楷体字体。主要是在 Klee One 上添加简体字。
+
+![LxgwWenkai preview | 1024x600](https://raw.githubusercontent.com/lxgw/LxgwWenKai/main/documentation/wenkai-1.png)
+
+这是一个字体家族，其中包括多个版本：
+
+* [霞鹜文楷 GB](https://github.com/lxgw/LxgwWenkaiGB)：调整字形，使其符合「通规」规范。其包含 GB18030-2022 实现级别 2 范围的汉字，估计大概 2~3 万多字。
+* [霞鶩文楷 TC](#霞鶩文楷%20TC)：繁体及旧字形
+* [芫荽](https://github.com/ButTaiwan/iansui)：采用台标
+* [芫茜雅楷](https://github.com/ItMarki/jyunsaikaai)：采用香港标准
+
+#### 霞鶩文楷 TC
+
+[霞鶩文楷 TC](https://github.com/lxgw/LxgwWenkaiTC) 是 [霞鶩文楷](https://github.com/lxgw/LxgwWenkai) 的繁体版，其字形参考了[傳承字形標準化文件](https://github.com/ichitenfont/inheritedglyphs)。
+
+![LxgwWenkaiTC preview | 1024x600](https://raw.githubusercontent.com/lxgw/LxgwWenkaitc/main/documentation/wenkaitc-3.png)
+
+![LxgwWenkai Test preview | 1024x463](./Fonts_Note.assets/霞鹜文文楷测试.png)
 
 ---
 ## <span id="fonts_program">编程字体</span>

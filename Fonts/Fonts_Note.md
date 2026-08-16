@@ -5,7 +5,7 @@ tags:
   - unicode
   - cjk
 created: 2023-01-31 11:31:14
-modified: 2026-08-16 19:23:57
+modified: 2026-08-17 04:12:19
 ---
 
 # 字体笔记
@@ -460,6 +460,38 @@ Google 版宋体的叫「Noto Serif CJK」，Adobe 版宋体叫「Source Han Ser
 
 ![LanternMing Test](./Fonts_Note.assets/上元明朝测试.png)
 
+### 文鼎 PL 字体
+
+文鼎 PL 公众授权字型（Public License Font），共有六套：
+
+**1999 版本**：四套提供予社会大众免费下载，开放用于商业或营利性质之目的：
+
+* 文鼎 PL 细上海宋
+* 文鼎 PL 中楷：
+	* AR PL UKai CN
+	* AR PL UKai HK
+	* AR PL UKai TW
+	* AR PL UKai MBE
+* 文鼎 PL 简报宋
+* 文鼎 PL 简中楷
+
+**2010 版本**：二套提供予社会大众免费下载，使用限于非商业或非营利性质之目的：
+
+* 文鼎 PL 明体 U20-L
+* 文鼎 PL 报宋 2GBK
+
+#### UKai-ExtC
+
+[UKai-ExtC](https://github.com/extc/UKai-ExtC) 这是一个把 UKai HK 与 UKai-ExtC 的合集。
+
+> [!quote] 
+> 
+> 是开源中文字体 **AR PL UKai**（文鼎楷体）的一个扩展衍生版本，主要用于在开源和 Linux 系统中提供包含 Unicode 扩展字符（如 CJK 扩展区 A/B 等冷僻字）的楷书支持。
+
+因为它是以 UKai HK 为底，所以是以文鼎 PL 中楷的香港版主体，补入了中国内地的通用字，所以如果某字是香港内地同码异型，最终显示的是香港版本，如「骨」,测试如下：
+
+![UKai-ExtC Test](Fonts_Note.assets/文鼎PL中楷测试.png)
+
 ### 寒蝉字体
 
 #### 寒蝉活字
@@ -502,6 +534,20 @@ Google 版宋体的叫「Noto Serif CJK」，Adobe 版宋体叫「Source Han Ser
 ![LxgwWenkaiTC preview | 1024x600](https://raw.githubusercontent.com/lxgw/LxgwWenkaitc/main/documentation/wenkaitc-3.png)
 
 ![LxgwWenkai Test preview | 1024x463](./Fonts_Note.assets/霞鹜文文楷测试.png)
+
+### 天珩字库
+
+[天珩字库](http://cheonhyeong.com) 是一个包括宋、楷、黑的字体家族。
+
+> [!important] 
+> 
+> 因为这个字库只是整理，属于「拼好字」，而此库的字体用到了很多厂商字体，所以使用这个字库的字体，有非常高的侵权风险！
+
+#### 天珩标楷
+
+天珩字库 - 标楷是按照香港标准。
+
+![TH Khaai Test](./Fonts_Note.assets/天珩标楷测试.png)
 
 ---
 ## <span id="fonts_program">编程字体</span>

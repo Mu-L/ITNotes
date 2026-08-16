@@ -10,7 +10,7 @@ tags:
   - shell
   - network
 created: 2023-08-18 19:44:52
-modified: 2026-08-14 11:37:57
+modified: 2026-08-16 11:43:36
 ---
 
 # Linux 笔记
@@ -1722,6 +1722,57 @@ sudo update-desktop-database /usr/share/applications
 获取方法：在终端中执行 `xprop WM_CLASS` ，然后点击运行中的窗口 (一般会出现一个鼠标的光标会呈现「十字」,表示「待获取中」，点击窗口后才恢复原状），获取窗口的 `WM_CLASS` 属性。
 
 如点击 Steam++ 运行中窗口后，终端显示：`WM_CLASS(STRING) = "Steam++", "Steam++"`
+
+##### Wayland 获取不到 WM_CLASS 的解决方法
+
+如果是 Wayland，可能上述操作不会生效，所以可以使用以下操作，获取 WM_CLASS 值：
+
+**GNOME 桌面 (Wayland)**：
+
+1. 按下 `Alt + F2`，输入 **`lg`** 并回车打开 Looking Glass 调试器。
+2. 切换到 **Windows** 标签页，点击目标窗口，即可看到其对应的 `wm_class`（即 Wayland 的 `app_id`）
+
+##### appimage 获取不到 WM_CLASS 的解决方法
+
+方法一：直接从 AppImage 内部提取（最推荐）
+
+每个标准的 AppImage 镜像内部都包含一个 `.desktop` 配置文件，里面已经由官方开发者写好了正确的 `StartupWMClass`。你无需运行软件，直接解压查看即可：
+
+1. **终端执行解压命令**（将命令中的 `your-app.AppImage` 替换为你的文件名）：
+    
+```shell
+./your-app.AppImage --appimage-extract
+```
+
+2. **查看配置文件**：此时当前目录下会生成一个 `squashfs-root` 文件夹。
+3. **寻找 `StartupWMClass`**：使用命令读取该文件夹下的 `.desktop` 文件
+
+可以用 [cat](#linux_textprocessing_commands_cat) 命令查看 desktop 文件，如：
+
+```shell
+cat squashfs-root/obsidian.desktop 
+```
+
+或者什么都不理，直接用 `grep` 进行检索，如：
+
+```shell
+grep -i "StartupWMClass" squashfs-root/*.desktop
+```
+
+输出结果中 `=` 后面的字符串（例如 `StartupWMClass=StandardNotes`）就是该软件真实的 `WM_CLASS`（或 Wayland 下的 `app_id`）。
+
+如：
+
+```shell
+$ grep -i "StartupWMClass" squashfs-root/*.desktop
+StartupWMClass=md.Obsidian
+```
+
+4. **清理文件**：获取到后，可直接删掉解压出的文件夹：
+    
+```shell
+rm -rf squashfs-root
+```
 
 #### desktop 示例
 

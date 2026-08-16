@@ -2,17 +2,21 @@
 aliases: []
 tags:
   - font
+  - cjk
+  - utf8
   - material
   - list
 created: 2025-07-31 03:39:18
-modified: 2026-08-15 00:55:59
+modified: 2026-08-15 21:26:45
 ---
 
 # 字体资料清单
 
 ---
 
-## CJK
+## 字符集
+
+### CJK
 
 * [中文字符集 Unicode 编码范围](https://www.qqxiuzi.cn/zh/hanzi-unicode-bianma.php)
 * [GB 18030-2022 公安人口信息专用字库补充汉字 - 知乎](https://zhuanlan.zhihu.com/p/620620630)
@@ -26,7 +30,17 @@ modified: 2026-08-15 00:55:59
 
 ---
 
-## 全角与半角
+## 排版
+
+* [簡單做好中文排版：十項讓長文章更容易閱讀的原則 - BFA 簡報](https://www.bfa.com.tw/blog/ten-rules-that-make-articles-better-understood)
+
+### 字号
+
+* [字号尺寸大小对照表 - 小鱼儿游 - 博客园](https://www.cnblogs.com/ruingy/p/3443226.html)
+* [字体字号磅数大小对照表](https://blog.csdn.net/u010370871/article/details/47980525)
+* [實測》這本書字好小！那本書字太大了！內文字級要如何測量？ \| 逗點文創結社](https://www.commabooks.com.tw/news/2434)
+
+### 全角与半角
 
 * [The Type — 文字 / 设计 / 文化 — 全角半角碎碎念](https://www.thetype.com/2018/02/14211/)
 

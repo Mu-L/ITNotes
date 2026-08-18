@@ -7,7 +7,7 @@ tags:
   - material
   - list
 created: 2025-07-31 03:39:18
-modified: 2026-08-15 21:26:45
+modified: 2026-08-18 23:01:51
 ---
 
 # 字体资料清单
@@ -27,6 +27,12 @@ modified: 2026-08-15 21:26:45
 * [如何看待GB18030强制标准与通用汉字规范表的关系? - 知乎](https://www.zhihu.com/question/401240131)
 * [CJK 统一汉字扩充 I （修订版）（Unicode® 15.1.0） - 知乎](https://zhuanlan.zhihu.com/p/643930520)
 * [gb18030-2022 标准 - 哔哩哔哩](https://www.bilibili.com/opus/811757185558118408)
+
+---
+
+## 字体设计
+
+* [日本正文字体从明朝体说起——鸟海修分享回顾 \| TOPYS创意内容平台](https://m.topys.cn/article/20253)
 
 ---
 

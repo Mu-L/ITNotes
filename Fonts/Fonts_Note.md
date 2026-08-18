@@ -5,7 +5,7 @@ tags:
   - unicode
   - cjk
 created: 2023-01-31 11:31:14
-modified: 2026-08-17 04:12:19
+modified: 2026-08-18 23:07:40
 ---
 
 # 字体笔记
@@ -83,6 +83,27 @@ modified: 2026-08-17 04:12:19
 1 英寸 = 72 磅 = 25.4 mm
 
 1 级 = 0.25 mm
+
+##### 字号单位对照
+
+| **中文字号** | **英文字号（磅）** | **毫米** | **像素** |
+|:------------:|:------------------:|:--------:|:--------:|
+|     初号     |        42pt        | 14.82mm  |   56px   |
+|     小初     |        36pt        | 12.70mm  |   48px   |
+|     一号     |        26pt        |  9.17mm  |  34.7px  |
+|     小一     |        24pt        |  8.47mm  |   32px   |
+|     二号     |        22pt        |  7.76mm  |  29.3px  |
+|     小二     |        18pt        |  6.35mm  |   24px   |
+|     三号     |        16pt        |  5.64mm  |  21.3px  |
+|     小三     |        15pt        |  5.29mm  |   20px   |
+|     四号     |        14pt        |  4.94mm  |  18.7px  |
+|     小四     |        12pt        |  4.23mm  |   16px   |
+|     五号     |       10.5pt       |  3.70mm  |   14px   |
+|     小五     |        9pt         |  3.18mm  |   12px   |
+|     六号     |       7.5pt        |  2.56mm  |   10px   |
+|     小六     |       6.5pt        |  2.29mm  |  8.7px   |
+|     七号     |       5.5pt        |  1.94mm  |  7.3px   |
+|     八号     |        5pt         |  1.76mm  |  6.7px   |
 
 ### 字重
 
@@ -513,6 +534,8 @@ Google 版宋体的叫「Noto Serif CJK」，Adobe 版宋体叫「Source Han Ser
 [寒蝉正楷](https://github.com/Warren2060/Chillkai) 是将台湾全字库正楷体中的西文优化而成的一款字体。
 
 ![Chillkai preview | 1024x600](https://private-user-images.githubusercontent.com/87366329/242528184-86279963-c801-46a9-bef8-ade689d932cb.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODY3MzcyMzYsIm5iZiI6MTc4NjczNjkzNiwicGF0aCI6Ii84NzM2NjMyOS8yNDI1MjgxODQtODYyNzk5NjMtYzgwMS00NmE5LWJlZjgtYWRlNjg5ZDkzMmNiLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA4MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwODE0VDE5NDg1NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNjODIwNmY0N2YzMTk5MGExN2UwN2E5YTU5MjJiMDdiMmFlN2M3Y2Y5YTBmNDIxNjhmOWNjOWUyNWY1YjRhZjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmpwZWcifQ.9PLOCBankIJ6qaLKGstFpDHmoEEhzCJ6lr2aUjQnI7A)
+
+![Chillkai Test](./Fonts_Note.assets/寒蝉正楷测试.png)
 
 ### 霞鶩文楷
 

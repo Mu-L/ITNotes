@@ -5,7 +5,7 @@ tags:
   - unicode
   - cjk
 created: 2023-01-31 11:31:14
-modified: 2026-08-18 23:07:40
+modified: 2026-08-20 00:57:26
 ---
 
 # 字体笔记
@@ -557,6 +557,19 @@ Google 版宋体的叫「Noto Serif CJK」，Adobe 版宋体叫「Source Han Ser
 ![LxgwWenkaiTC preview | 1024x600](https://raw.githubusercontent.com/lxgw/LxgwWenkaitc/main/documentation/wenkaitc-3.png)
 
 ![LxgwWenkai Test preview | 1024x463](./Fonts_Note.assets/霞鹜文文楷测试.png)
+
+### 汇文
+
+[Site Unreachable](https://zhuanlan.zhihu.com/p/12669052378) 是一个复刻老字体的字体家族。
+
+包括了四种字体：
+
+* 汇文明朝
+* 汇文仿宋
+* 汇文正楷
+* 汇文港黑
+
+![HuiWen Test preview](./Fonts_Note.assets/汇文字体测试.png)
 
 ### 天珩字库
 

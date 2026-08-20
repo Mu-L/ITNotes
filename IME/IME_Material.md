@@ -5,7 +5,7 @@ tags:
   - material
   - list
 created: 2025-03-14 02:26:25
-modified: 2026-05-07 21:41:07
+modified: 2026-08-20 12:19:20
 ---
 
 # 输入法资料清单
@@ -21,6 +21,14 @@ modified: 2026-05-07 21:41:07
 * [解决VScode与Linux Rime中州韵输入法CTRL+~热键冲突](https://spaceack.com/20210120-%E8%A7%A3%E5%86%B3vscode%E4%B8%8Elinuxrime%E4%B8%AD%E5%B7%9E%E9%9F%B5%E8%BE%93%E5%85%A5%E6%B3%95ctrl-~%E7%83%AD%E9%94%AE%E5%86%B2%E7%AA%81/)
 * [鼠须管输入法配置 – 哈呜.王](https://www.hawu.me/others/2666#section_10)
 * [调教 Rime 输入法(一): Markdown 篇 - 吕小荣](https://mednoter.com/rime-1.html)
+
+#### 特殊用法
+
+* [rime中州韵小狼毫 汉语拼音输入方案\_怎样用rime输出拼音-CSDN博客](https://blog.csdn.net/weixin_42148809/article/details/135565378)
+
+#### plum
+
+* [東風破 /plum/ 基本用法 - 芋頭屋](https://umit.moe/basics-of-plum/)
 
 #### 美化
 

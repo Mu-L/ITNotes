@@ -5,7 +5,7 @@ tags:
   - yaml
   - ime
 created: 2023-08-18 19:44:52
-modified: 2026-05-07 04:22:01
+modified: 2026-08-20 12:49:46
 ---
 
 # Rime 笔记
@@ -19,6 +19,7 @@ modified: 2026-05-07 04:22:01
 * [安装](#rime_install)
 * [打字操作](#rime_input)
 * [设置](#rime_config)
+* [输入方案](#输入方案)
 
 ---
 ## <span id="rime_install">安装</span>
@@ -51,6 +52,19 @@ ibus restart
 
 ---
 
+## 常用操作
+
+### 特殊符号输入
+
+[特殊字符](#特殊字符) 输入，可以查看 `symbols.yaml` 的定义就好了。
+
+* 拼音字母：`/py`
+* 注音符号：`/zy`
+* 星座符号：`/xz`
+* 罗马数字：`/lm`
+
+---
+
 ## 概念
 
 ### 方案
@@ -74,13 +88,15 @@ ibus-rime 的配置文件存在目录是在：`~/.config/ibus/rime/`
 
 * `default.custom.yaml`：核心配置、全局配置
 * `weasel.custom.yaml`、`squirrel.custom.yaml`：平台相关配置
-> [!tip] linux 平台
+> [!tip]
+> 
 > [Linux](../Linux/Linux_Note.md) 平台有两套实现：ibus 和 fcitx。
 > 所以对应的 rime 就是 **ibus-rime** 和 **fcitx-rime**
 * <方案标识>.custom.yaml：对预设输入方案的配置
 * <名称>.dict.yaml：词典
 
 > [!tip]
+> 
 > rime 中的配置文件都是 [YAML](../YAML/YAML_Note.md) 格式，所以配置时要严格遵循 YAML 语法。
 
 `default.custom.yaml` 配置是针对所有输入 [方案](#方案) 的自定义配置文件。
@@ -213,9 +229,29 @@ app_opsions:
 
 ---
 
-## 输入法列表
+## 东风破
 
-### 汉语输入法
+[東風破](https://github.com/rime/plum) （Plum）是一个快速安装 [输入方案](#输入方案) 的小工具。
+
+### 常用操作
+
+安装输入方案：
+
+```shell
+bash rime-install 输入法名称
+```
+
+更新 Plum 本体：
+
+```shell
+bash rime-install plum
+```
+
+---
+
+## 输入方案
+
+### 汉语输入方案
 
 #### 五笔
 
@@ -233,16 +269,74 @@ app_opsions:
 * [LEOYoon-Tsaw/Cangjie6: 蒼頡檢字法](https://github.com/LEOYoon-Tsaw/Cangjie6)
 * [RIME 倉頡輸入法方案集成](https://github.com/cangjie-system/rime-cangjie-integrated)
 
-### 日语输入法
+### 日语输入方案
 
 * [日语输入法](https://github.com/gkovacs/rime-japanese)
 * [Rime-KappaJP](https://github.com/momijineko/Rime-KappaJP "Rime 河童日本語五筆字型入力方法")
 
-### 音标
+### 音标及拼音
+
+#### 国际音标
 
 * [rime英语音标输入方案。](https://github.com/mapleafly/rime-ipa-english)
-* [IPA / 國際音標輸入方案](https://github.com/rime/rime-ipa)
-* 
+* [ipa_xsampa](https://github.com/rime/rime-ipa)
+
+安装国际音标：
+
+```shell 
+bash rime-install ipa
+```
+
+包括了两种输入方案：
+
+* x-sampa
+* 雲龍 IPA
+
+启用输入方案，只需在 `default.custom.yaml`，添加相应的`schema` 项就好了：
+
+```yaml
+patch:
+  schema_list:
+    - schema: wubi98
+    - schema: luna_pinyin
+    - schema: cangjie5
+    - schema: cangjie5_express
+    - schema: cangjie6
+    - schema: cangjie6_express
+    - schema: japanese
+    - schema: ipa_xsampa
+    - schema: ipa_yunlong
+```
+
+> [!info] 
+> 
+> * x-sampa 的 schema 名叫：`ipa_xsampa`
+> * 雲龍 IPA 的 schema 名叫：`ipa_yunlong`
+
+#### 拼音
+
+* [地球拼音](https://github.com/rime/rime-terra-pinyin)
+* [朙月拼音](https://github.com/rime/rime-luna-pinyin)
+
+#### 地球拼音
+
+使用 [东风破](#东风破) 安装：
+
+```shell
+bash rime-install terra-pinyin
+```
+
+此方案可以输入声调。只用在音节末尾加上 `-` `/` `<` `\` 就能输入汉语拼音的四个声调了。
+
+#### 朙月拼音
+
+使用 [东风破](#东风破) 安装：
+
+```shell
+bash rime-install luna-pinyin
+```
+
+此方案不支持输入声调。
 
 ---
 
@@ -261,4 +355,5 @@ app_opsions:
 * [五笔小筑](https://wubi98.gitee.io/)
 * [98五笔资源库](http://98wb.ysepan.com/)
 * [sheepduke/rime-config](https://github.com/sheepduke/rime-config)
+* [awesome-rime:基于 Rime 生态的输入法方案与配置资源集合项目 - AtomGit](https://gitcode.com/GitHub_Trending/aw/awesome-rime)
 

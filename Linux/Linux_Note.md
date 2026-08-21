@@ -10,7 +10,7 @@ tags:
   - shell
   - network
 created: 2023-08-18 19:44:52
-modified: 2026-08-21 18:52:49
+modified: 2026-08-22 02:15:18
 ---
 
 # Linux 笔记
@@ -720,6 +720,13 @@ zip -F 烤肉500.zip --out 500.zip
 #### fd
 
 [fd](https://github.com/sharkdp/fd) 是一个更友好的 [find](#find)，它是用 [Rust](../Rust/Rust_Note.md) 编写。
+
+### ln
+
+创建一个链接使用 `ln` 命令。语法：`ln from to`
+
+第一个参数：被链接的文件
+第二个参数：链接名
 
 ---
 

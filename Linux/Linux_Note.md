@@ -10,7 +10,7 @@ tags:
   - shell
   - network
 created: 2023-08-18 19:44:52
-modified: 2026-08-16 11:43:36
+modified: 2026-08-21 18:52:49
 ---
 
 # Linux 笔记
@@ -1964,6 +1964,38 @@ grub 模板：`/etc/default/grub`
 * `GRUB_TIMEOUT=10`：grub 等待时间，单位为秒
 * `GRUB_GFXMODE`：分辨率，默认是 **auto**，可以配多个，如 `GRUB_GFXMODE=1920x1080,1280x720,1024x768,auto`
 * `GRUB_DISABLE_OS_PROBER`：禁止使用 OS_PROBER（系统探针），默认值是 `false`，即不禁止**OS_PROBER**。**OS_PROBER**这东西是能探测操作系统的，操作系统变化，能及时的更新 Grub 的引导，所以最好不要修改，保持默认。
+
+---
+
+## 硬盘相关
+
+### smartctl
+
+查看硬盘所有信息：
+
+```shell
+sudo smartctl -a /dev/sda
+```
+
+* `POR_Recovery_Count`：记录硬盘在经历**非正常断电**、**强制关机**、死机重启或系统崩溃后，重新通电开机并完成内部状态恢复操作的累计次数。
+
+查看硬盘读写次数：
+
+```shell
+sudo smartctl -l devstat /dev/sda
+```
+
+查看硬盘健康状态：
+
+```shell
+sudo smartctl -H /dev/sda
+```
+
+检测结果如下，就是正常：
+
+```shell
+SMART overall-health self-assessment test result: PASSED
+```
 
 ---
 
